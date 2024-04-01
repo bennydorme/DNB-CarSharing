@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1366185_dnb_cars.costumer" name="x_1366185_dnb_cars.costumer">fce68b65479d021042ea995b116d4327</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-01 14:06:00</sys_created_on>
+        <sys_id>78e68769479d021042ea995b116d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fce68b65479d021042ea995b116d4327</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sys_embedded_help_role_78e68769479d021042ea995b116d4311</sys_update_name>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-01 14:06:00</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
