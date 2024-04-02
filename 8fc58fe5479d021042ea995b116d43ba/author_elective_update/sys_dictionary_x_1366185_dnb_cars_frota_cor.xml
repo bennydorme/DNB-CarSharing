@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="cor" table="x_1366185_dnb_cars_frota">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Color</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_1366185_dnb_cars_frota</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 21:42:50</sys_created_on>
+        <sys_id>387f28b54791421042ea995b116d433f</sys_id>
+        <sys_name>Color</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sys_dictionary_x_1366185_dnb_cars_frota_cor</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 09:28:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>sys_dictionary_x_1366185_dnb_cars_frota_cor</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="cor" table="x_1366185_dnb_cars_frota"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Color</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>cor</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>x_1366185_dnb_cars_frota</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-01 21:42:50</sys_created_on><sys_id>387f28b54791421042ea995b116d433f</sys_id><sys_name>Color</sys_name><sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package><sys_policy/><sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope><sys_update_name>sys_dictionary_x_1366185_dnb_cars_frota_cor</sys_update_name><sys_updated_by>DianaAdmin</sys_updated_by><sys_updated_on>2024-04-02 09:28:57</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>760298289</payload_hash>
+        <record_name>Frota.Color</record_name>
+        <reverted_from/>
+        <source>7110d7e947d1021042ea995b116d4372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 09:28:57</sys_created_on>
+        <sys_id>0811577947dd421042ea995b116d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9e23e8e20000001</sys_recorded_at>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 09:28:57</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>8c11577900dd42100c571a482f1095e7</update_guid>
+        <update_guid_history>8c11577900dd42100c571a482f1095e7:760298289,88901b39b9dd421034d6a5061c400a13:1184887064,417f68b5d69142102fee54ca2d70f58b:828040157,307f68b5f0914210b8ceb06ab8cd1401:-1765649600</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 09:30:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>c86e987e5e604c6a8d5ae440a29297e4</sys_id>
+        <sys_metadata>387f28b54791421042ea995b116d433f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Color</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_parent display_value="Car Fleet">b19b5b254759021042ea995b116d4322</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1366185_dnb_cars_frota_cor</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1366185_dnb_cars_frota_cor">0811577947dd421042ea995b116d43e8</sys_update_version>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 09:30:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
