@@ -1,0 +1,1899 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "tc_header",
+        "elementLabel": "TC header",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "stylized_text_1",
+                    "elementLabel": "Stylized text 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": false
+                    },
+                    "preset": {
+                        "controllerElementId": "related_items_user_preferences_1",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "159afdaf07e7111017b703767cd30023"
+                    },
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "css": {
+                            "type": "JSON_LITERAL",
+                            "value": "* {\n    font-size: 2rem;\n }"
+                        },
+                        "tag": {
+                            "type": "JSON_LITERAL",
+                            "value": "h1"
+                        },
+                        "text": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Terms and Conditions"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "stylized_text_2",
+                    "elementLabel": "Stylized text 2",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": {
+                        "controllerElementId": "related_items_user_preferences_1",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "159afdaf07e7111017b703767cd30023"
+                    },
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "css": {
+                            "type": "JSON_LITERAL",
+                            "value": "* {\n    font-size: 1rem;\n }"
+                        },
+                        "text": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Please accept or decline."
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "stylized_text_1",
+                            "styles": {}
+                        },
+                        {
+                            "element_id": "stylized_text_2",
+                            "styles": {
+                                "align-self": "center"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "align-items": "center",
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "stylized_text_3",
+                    "elementLabel": "Stylized text 3",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": {
+                        "controllerElementId": "related_items_user_preferences_1",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "159afdaf07e7111017b703767cd30023"
+                    },
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "tag": {
+                            "type": "JSON_LITERAL",
+                            "value": "h3"
+                        },
+                        "text": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Terms and Conditions of Car Sharing Service"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "stylized_text_3",
+                            "styles": {
+                                "margin-left": "var(--now-scalable-space--3xl)"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": {
+            "controllerElementId": "filter_and_sort_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "0628144843dd211017b739603ab8f270"
+        },
+        "propertyValues": {
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_2",
+        "elementLabel": "Container 2",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "stylized_text_4",
+                    "elementLabel": "Stylized text 4",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": {
+                        "controllerElementId": "related_items_user_preferences_1",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "159afdaf07e7111017b703767cd30023"
+                    },
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "css": {
+                            "type": "JSON_LITERAL",
+                            "value": "* {\n    font-size: 16px;\n }"
+                        },
+                        "tag": {
+                            "type": "JSON_LITERAL",
+                            "value": "p"
+                        },
+                        "text": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "1. Acceptance of Terms: By accessing or using the Car Sharing Service provided by DNB, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any of these terms, you should not access or use the Service."
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "stylized_text_4",
+                            "styles": {
+                                "margin-left": "var(--now-scalable-space--3xl)"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": {
+            "controllerElementId": "filter_and_sort_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "0628144843dd211017b739603ab8f270"
+        },
+        "propertyValues": {
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_3",
+        "elementLabel": "Container 3",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "stylized_text_5",
+                    "elementLabel": "Stylized text 5",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": {
+                        "controllerElementId": "related_items_user_preferences_1",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "159afdaf07e7111017b703767cd30023"
+                    },
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "css": {
+                            "type": "JSON_LITERAL",
+                            "value": "* {\n    font-size: 16px;\n }"
+                        },
+                        "tag": {
+                            "type": "JSON_LITERAL",
+                            "value": "p"
+                        },
+                        "text": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "2. Description of Service: The Car Sharing Service enables users to locate, reserve, and utilize vehicles owned by DNB for short-term usage."
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "stylized_text_5",
+                            "styles": {
+                                "margin-left": "var(--now-scalable-space--3xl)"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": {
+            "controllerElementId": "filter_and_sort_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "0628144843dd211017b739603ab8f270"
+        },
+        "propertyValues": {
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_6",
+        "elementLabel": "Stylized text 6",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "3. User Eligibility: Users must be at least 18 years of age and possess a valid driver's license to use the Service. By using the Service, you represent and warrant that you meet these eligibility requirements."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_7",
+        "elementLabel": "Stylized text 7",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "4. Vehicle Reservation: Users may reserve vehicles through the Car Sharing platform. Reservations are subject to availability and are confirmed on a first-come, first-served basis."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_8",
+        "elementLabel": "Stylized text 8",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "5. Vehicle Usage: Users are responsible for the safe and lawful operation of the vehicles during the reservation period. Users must comply with all traffic laws and regulations while using the vehicle."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_9",
+        "elementLabel": "Stylized text 9",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "6. Insurance and Liability: DNB provides insurance coverage for vehicles during the reservation period. However, users are responsible for any damages, accidents, or violations incurred during their usage of the vehicle, subject to the terms of the insurance policy."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_10",
+        "elementLabel": "Stylized text 10",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "7. Fees and Charges: Users may be charged rental fees, mileage fees, and additional charges for late returns, damages, or other violations of the Terms and Conditions. All fees and charges will be clearly communicated to users before confirming their reservation."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_11",
+        "elementLabel": "Stylized text 11",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "8. Cancellation and Refunds: Users may cancel their reservations subject to the cancellation policy specified on the Car Sharing platform. Refunds, if applicable, will be processed according to the terms of the cancellation policy."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_12",
+        "elementLabel": "Stylized text 12",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "9. User Conduct: Users agree not to engage in any illegal, fraudulent, or abusive activities while using the Service. Users must treat the vehicles with care and respect, and refrain from smoking, consuming alcohol, or engaging in any other prohibited activities inside the vehicles."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_13",
+        "elementLabel": "Stylized text 13",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "10. Intellectual Property: All intellectual property rights related to the Car Sharing Service, including but not limited to trademarks, copyrights, and proprietary technology, are owned by DNB."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_14",
+        "elementLabel": "Stylized text 14",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "11. Privacy Policy: By using the Car Sharing Service, users consent to the collection, use, and disclosure of their personal information in accordance with the Privacy Policy of DNB."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_15",
+        "elementLabel": "Stylized text 15",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "12. Modification of Terms: DNB reserves the right to modify or update these Terms and Conditions at any time. Users will be notified of any changes, and continued use of the Service after such modifications constitutes acceptance of the revised terms."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_16",
+        "elementLabel": "Stylized text 16",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "13. Termination: DNB may terminate or suspend access to the Car Sharing Service for any user who violates these Terms and Conditions or engages in any prohibited conduct, without prior notice or liability."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_17",
+        "elementLabel": "Stylized text 17",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "14. Governing Law: These Terms and Conditions shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law principles."
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_18",
+        "elementLabel": "Stylized text 18",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "15. Contact Information: For questions or inquiries regarding these Terms and Conditions, please contact DNB at [Contact Email Address] or [Contact Phone Number"
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_19",
+        "elementLabel": "Stylized text 19",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "related_items_user_preferences_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "159afdaf07e7111017b703767cd30023"
+        },
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* {\n    font-size: 16px;\n }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "p"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "By using the Car Sharing Service, you acknowledge that you have read, understood, and agreed to be bound by these Terms and Conditions.\n"
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "column_layout_1",
+        "elementLabel": "Column layout 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__cluiwxwiidaaaaddiiddffhhrjriishmu__column_1",
+                    "elementLabel": "__cluiwxwiidaaaaddiiddffhhrjriishmu__Column 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "accept2",
+                                "elementLabel": "Accept2",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": {
+                                    "controllerElementId": "related_items_user_preferences_1",
+                                    "disabledEventTargetIds": [
+                                        
+                                    ],
+                                    "id": "f8f9319207a7511017b703767cd30066"
+                                },
+                                "propertyValues": {
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "primary-positive"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "accept2",
+                                        "styles": {
+                                            "align-self": "center"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": {
+                                    "flex-direction": "row"
+                                },
+                                "styles": {
+                                    "align-items": "flex-start",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "align-items": "flex-start",
+                                            "box-sizing": "border-box",
+                                            "flex-direction": "column",
+                                            "height": "100%",
+                                            "justify-content": "flex-start",
+                                            "overflow": "auto"
+                                        }
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__cluiwxwiieaaaaddjjddffhhrbbhhcopccyt__column_2",
+                    "elementLabel": "__cluiwxwiieaaaaddjjddffhhrbbhhcopccyt__Column 2",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "decline_2",
+                                "elementLabel": "decline 2",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": {
+                                    "controllerElementId": "related_items_user_preferences_1",
+                                    "disabledEventTargetIds": [
+                                        
+                                    ],
+                                    "id": "f8f9319207a7511017b703767cd30066"
+                                },
+                                "propertyValues": {
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Decline"
+                                        }
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "secondary-negative"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "decline_2",
+                                        "styles": {
+                                            "align-self": "center"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": {
+                                    "flex-direction": "row"
+                                },
+                                "styles": {
+                                    "align-items": "flex-start",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "align-items": "flex-start",
+                                            "box-sizing": "border-box",
+                                            "flex-direction": "column",
+                                            "height": "100%",
+                                            "justify-content": "flex-start",
+                                            "overflow": "auto"
+                                        }
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__cluiwxwiidaaaaddiiddffhhrjriishmu__column_1",
+                            "styles": {
+                                "display": "contents",
+                                "width": "100%"
+                            }
+                        },
+                        {
+                            "element_id": "__cluiwxwiieaaaaddjjddffhhrbbhhcopccyt__column_2",
+                            "styles": {
+                                "display": "contents",
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "grid-template-columns": "50fr 50fr",
+                        "grid-template-rows": "1fr",
+                        "width": "100%"
+                    },
+                    "type": "grid"
+                },
+                "disableAutoReflow": true,
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [
+                                
+                            ],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "box-sizing": "border-box",
+                                "grid-template-columns": "1fr",
+                                "grid-template-rows": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content",
+                                "width": "100%"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "contents"
+            }
+        },
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "box-sizing": "border-box",
+                                    "grid-template-columns": "1fr",
+                                    "grid-template-rows": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content",
+                                    "width": "100%"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 50
+                            },
+                            {
+                                "columnNumber": 2,
+                                "unit": "%",
+                                "width": 50
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {
+                                "display": "contents",
+                                "width": "100%"
+                            },
+                            "internal": {
+                                "box-sizing": "border-box",
+                                "grid-template-rows": "1fr",
+                                "width": "100%"
+                            }
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_4",
+        "elementLabel": "Container 4",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "stylized_text_20",
+                    "elementLabel": "Stylized text 20",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "css": {
+                            "type": "JSON_LITERAL",
+                            "value": "* { }"
+                        },
+                        "tag": {
+                            "type": "JSON_LITERAL",
+                            "value": "h1"
+                        },
+                        "text": {
+                            "binding": {
+                                "address": [
+                                    "look_up_a_single_record_1"
+                                ]
+                            },
+                            "type": "DATA_OUTPUT_BINDING"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "stylized_text_20",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": {
+            "controllerElementId": "filter_and_sort_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "0628144843dd211017b739603ab8f270"
+        },
+        "propertyValues": {
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "365c0e890767111017b703767cd3008e",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "related_items_user_preferences_1",
+        "elementLabel": "Related Items User Preferences 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {},
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "6a392db743c5211017b739603ab8f20c",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "filter_and_sort_1",
+        "elementLabel": "Filter and Sort 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "inputData": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "sortCategoriesArray": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "9664d48053461010cbc2ddeeff7b128e",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "look_up_a_single_record_1",
+        "elementLabel": "Look up a single record 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "recordId": {
+                "type": "JSON_LITERAL",
+                "value": "a2a55c9647d9c21042ea995b116d437e"
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnTableMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_1366185_dnb_cars_dnb_terms_and_conditions"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events>64407d06475d821042ea995b116d4359</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "tc_header",
+                "styles": {
+                    "background": "rgb(var(--now-color--neutral-1))"
+                }
+            },
+            {
+                "element_id": "container_1",
+                "styles": {
+                    "width": "100%"
+                }
+            },
+            {
+                "element_id": "container_2",
+                "styles": {
+                    "width": "100%"
+                }
+            },
+            {
+                "element_id": "container_3",
+                "styles": {
+                    "width": "100%"
+                }
+            },
+            {
+                "element_id": "stylized_text_6",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_7",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_8",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_9",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_10",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_11",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_12",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_13",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_14",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_15",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_16",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_17",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_18",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "stylized_text_19",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--3xl)"
+                }
+            },
+            {
+                "element_id": "column_layout_1",
+                "styles": {
+                    "display": "contents",
+                    "width": "100%"
+                }
+            },
+            {
+                "element_id": "container_4",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Terms and conditions</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ {
+  "message" : "1. Acceptance of Terms: By accessing or using the Car Sharing Service provided by DNB, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any of these terms, you should not access or use the Service.",
+  "comment" : ""
+}, {
+  "message" : "10. Intellectual Property: All intellectual property rights related to the Car Sharing Service, including but not limited to trademarks, copyrights, and proprietary technology, are owned by DNB.",
+  "comment" : ""
+}, {
+  "message" : "11. Privacy Policy: By using the Car Sharing Service, users consent to the collection, use, and disclosure of their personal information in accordance with the Privacy Policy of DNB.",
+  "comment" : ""
+}, {
+  "message" : "12. Modification of Terms: DNB reserves the right to modify or update these Terms and Conditions at any time. Users will be notified of any changes, and continued use of the Service after such modifications constitutes acceptance of the revised terms.",
+  "comment" : ""
+}, {
+  "message" : "13. Termination: DNB may terminate or suspend access to the Car Sharing Service for any user who violates these Terms and Conditions or engages in any prohibited conduct, without prior notice or liability.",
+  "comment" : ""
+}, {
+  "message" : "14. Governing Law: These Terms and Conditions shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law principles.",
+  "comment" : ""
+}, {
+  "message" : "15. Contact Information: For questions or inquiries regarding these Terms and Conditions, please contact DNB at [Contact Email Address] or [Contact Phone Number",
+  "comment" : ""
+}, {
+  "message" : "2. Description of Service: The Car Sharing Service enables users to locate, reserve, and utilize vehicles owned by DNB for short-term usage.",
+  "comment" : ""
+}, {
+  "message" : "3. User Eligibility: Users must be at least 18 years of age and possess a valid driver's license to use the Service. By using the Service, you represent and warrant that you meet these eligibility requirements.",
+  "comment" : ""
+}, {
+  "message" : "4. Vehicle Reservation: Users may reserve vehicles through the Car Sharing platform. Reservations are subject to availability and are confirmed on a first-come, first-served basis.",
+  "comment" : ""
+}, {
+  "message" : "5. Vehicle Usage: Users are responsible for the safe and lawful operation of the vehicles during the reservation period. Users must comply with all traffic laws and regulations while using the vehicle.",
+  "comment" : ""
+}, {
+  "message" : "6. Insurance and Liability: DNB provides insurance coverage for vehicles during the reservation period. However, users are responsible for any damages, accidents, or violations incurred during their usage of the vehicle, subject to the terms of the insurance policy.",
+  "comment" : ""
+}, {
+  "message" : "7. Fees and Charges: Users may be charged rental fees, mileage fees, and additional charges for late returns, damages, or other violations of the Terms and Conditions. All fees and charges will be clearly communicated to users before confirming their reservation.",
+  "comment" : ""
+}, {
+  "message" : "8. Cancellation and Refunds: Users may cancel their reservations subject to the cancellation policy specified on the Car Sharing platform. Refunds, if applicable, will be processed according to the terms of the cancellation policy.",
+  "comment" : ""
+}, {
+  "message" : "9. User Conduct: Users agree not to engage in any illegal, fraudulent, or abusive activities while using the Service. Users must treat the vehicles with care and respect, and refrain from smoking, consuming alcohol, or engaging in any other prohibited activities inside the vehicles.",
+  "comment" : ""
+}, {
+  "message" : "By using the Car Sharing Service, you acknowledge that you have read, understood, and agreed to be bound by these Terms and Conditions.\n",
+  "comment" : ""
+}, {
+  "message" : "Decline",
+  "comment" : ""
+}, {
+  "message" : "Please accept or decline.",
+  "comment" : ""
+}, {
+  "message" : "Terms and Conditions",
+  "comment" : ""
+}, {
+  "message" : "Terms and Conditions of Car Sharing Service",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 21:04:12</sys_created_on>
+        <sys_id>ac30b9c6475d821042ea995b116d4365</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Terms and conditions</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sys_ux_macroponent_ac30b9c6475d821042ea995b116d4365</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:14:15</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac30b9c6475d821042ea995b116d4365"/>
+</record_update>

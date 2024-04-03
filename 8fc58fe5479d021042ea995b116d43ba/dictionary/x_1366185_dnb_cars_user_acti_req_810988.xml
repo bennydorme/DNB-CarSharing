@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="67a0548a4755821042ea995b116d432b" extends="user_activation_request" label="Dnb Cars User Acti Req 810988" max_length="40" name="x_1366185_dnb_cars_user_acti_req_810988" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=driving_licence_expiry_date" label="driving licence expiry date" max_length="40" name="driving_licence_expiry_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=driving_licence_number" label="Driving licence number" max_length="40" name="driving_licence_number" type="string"/>
+    </element>
+</database>

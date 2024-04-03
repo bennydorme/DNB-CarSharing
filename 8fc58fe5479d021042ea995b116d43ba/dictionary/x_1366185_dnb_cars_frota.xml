@@ -4,7 +4,7 @@
         <element label="Brand" mandatory="true" max_length="40" name="brand" type="string"/>
         <element label="car picture" max_length="255" name="car_pictur0" type="user_image"/>
         <element label="Car picture" max_length="255" name="car_picture" type="icon"/>
-        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+        <element choice="1" label="Class" mandatory="true" max_length="40" name="category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Standard" sequence="1" value="Standard"/>
                 <element inactive_on_update="false" label="4 x 4" sequence="2" value="4 x 4"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="905b00d24799c21042ea995b116d43b3" label="DNB terms and conditions" max_length="40" name="x_1366185_dnb_cars_dnb_terms_and_conditions" type="collection">
+        <element label="Contract" mandatory="true" max_length="32" name="contract" reference="clm_terms_and_conditions" type="reference"/>
+        <element label="Description" mandatory="true" max_length="4000" name="description" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="contract"/>
+        </index>
+    </element>
+</database>

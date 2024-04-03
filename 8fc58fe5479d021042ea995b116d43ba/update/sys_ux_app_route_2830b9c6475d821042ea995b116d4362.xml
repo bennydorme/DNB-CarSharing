@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Terms and Conditions">efee2146475d821042ea995b116d43a9</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Terms and conditions</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>terms-and-conditions</route_type>
+        <screen_type display_value="Terms and conditions">2c30bd46475d821042ea995b116d43a1</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 21:04:12</sys_created_on>
+        <sys_id>2830b9c6475d821042ea995b116d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terms and conditions</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sys_ux_app_route_2830b9c6475d821042ea995b116d4362</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 21:04:12</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=2830b9c6475d821042ea995b116d4362"/>
+</record_update>

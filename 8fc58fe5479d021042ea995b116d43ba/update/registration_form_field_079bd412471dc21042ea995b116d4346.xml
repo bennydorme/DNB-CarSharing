@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field">
+    <registration_form_field action="INSERT_OR_UPDATE">
+        <column_label>driving licence expiry date</column_label>
+        <column_name>driving_licence_expiry_date</column_name>
+        <custom_field>true</custom_field>
+        <display>true</display>
+        <mandatory>true</mandatory>
+        <order>10000</order>
+        <registration_configuration display_value="Car sharing customers registration">a26f8cc64755821042ea995b116d430f</registration_configuration>
+        <sys_class_name>registration_form_field</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 09:37:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>079bd412471dc21042ea995b116d4346</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>driving licence expiry date</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>registration_form_field_079bd412471dc21042ea995b116d4346</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:46:26</sys_updated_on>
+        <type>9</type>
+        <validation_only>false</validation_only>
+    </registration_form_field>
+</record_update>
