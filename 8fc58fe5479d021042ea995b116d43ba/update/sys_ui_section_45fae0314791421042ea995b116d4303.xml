@@ -3,140 +3,154 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>brand</element>
             <position>0</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:43:05</sys_created_on>
-            <sys_id>17449ffd47dd421042ea995b116d434c</sys_id>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>ca6a0c924799c21042ea995b116d43f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:43:05</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>model</element>
             <position>1</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:43:05</sys_created_on>
-            <sys_id>1f449ffd47dd421042ea995b116d434c</sys_id>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>c26a0c924799c21042ea995b116d43f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:43:05</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>year</element>
             <position>2</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:43:05</sys_created_on>
-            <sys_id>17449ffd47dd421042ea995b116d434d</sys_id>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>ca6a0c924799c21042ea995b116d43f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:43:05</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>color</element>
             <position>3</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:43:05</sys_created_on>
-            <sys_id>1f449ffd47dd421042ea995b116d434d</sys_id>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>c26a0c924799c21042ea995b116d43fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:43:05</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>car_pictur0</element>
+            <position>4</position>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>ca6a0c924799c21042ea995b116d43fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:43:05</sys_created_on>
-            <sys_id>17449ffd47dd421042ea995b116d434e</sys_id>
+            <position>5</position>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>c26a0c924799c21042ea995b116d43fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:43:05</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>category</element>
-            <position>5</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:43:05</sys_created_on>
-            <sys_id>1f449ffd47dd421042ea995b116d434e</sys_id>
+            <position>6</position>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>826a4c924799c21042ea995b116d4308</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:43:05</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>seats</element>
-            <position>6</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:43:05</sys_created_on>
-            <sys_id>17449ffd47dd421042ea995b116d434f</sys_id>
+            <position>7</position>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>8a6a4c924799c21042ea995b116d4308</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:43:05</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>fuel</element>
-            <position>7</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:43:05</sys_created_on>
-            <sys_id>1f449ffd47dd421042ea995b116d434f</sys_id>
+            <position>8</position>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>826a4c924799c21042ea995b116d4309</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:43:05</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>licence_plate</element>
-            <position>8</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:43:05</sys_created_on>
-            <sys_id>17449ffd47dd421042ea995b116d4350</sys_id>
+            <position>9</position>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>8a6a4c924799c21042ea995b116d4309</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:43:05</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>kilometers</element>
-            <position>9</position>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 09:49:54</sys_created_on>
-            <sys_id>cbd5d7b14711821042ea995b116d4396</sys_id>
+            <position>10</position>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 08:17:58</sys_created_on>
+            <sys_id>826a4c924799c21042ea995b116d430a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_frota" sys_domain="global" view="Default view">45fae0314791421042ea995b116d4303</sys_ui_section>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 09:49:54</sys_updated_on>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 08:17:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

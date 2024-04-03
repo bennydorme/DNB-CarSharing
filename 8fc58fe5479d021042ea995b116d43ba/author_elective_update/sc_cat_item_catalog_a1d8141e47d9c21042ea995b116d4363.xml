@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="DNB CarSharing">af75a7f94751821042ea995b116d4323</sc_cat_item>
+        <sc_catalog display_value="Resources">8752afd953133300a8ed21fac2dc34ac</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 09:21:00</sys_created_on>
+        <sys_id>a1d8141e47d9c21042ea995b116d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resources.DNB CarSharing</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a1d8141e47d9c21042ea995b116d4363</sys_update_name>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:21:00</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>sc_cat_item_catalog_a1d8141e47d9c21042ea995b116d4363</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="DNB CarSharing">af75a7f94751821042ea995b116d4323</sc_cat_item><sc_catalog display_value="Resources">8752afd953133300a8ed21fac2dc34ac</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>BenAdmin</sys_created_by><sys_created_on>2024-04-03 09:21:00</sys_created_on><sys_id>a1d8141e47d9c21042ea995b116d4363</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Resources.DNB CarSharing</sys_name><sys_package/><sys_policy/><sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope><sys_update_name>sc_cat_item_catalog_a1d8141e47d9c21042ea995b116d4363</sys_update_name><sys_updated_by>BenAdmin</sys_updated_by><sys_updated_on>2024-04-03 09:21:00</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1023809132</payload_hash>
+        <record_name>Resources.DNB CarSharing</record_name>
+        <reverted_from/>
+        <source>33d8d41e47d9c21042ea995b116d431c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 09:21:12</sys_created_on>
+        <sys_id>1ce8181e47d9c21042ea995b116d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea3432c850000001</sys_recorded_at>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:21:12</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>10e8181e04d9c210ed6acf5ba50cb5c8</update_guid>
+        <update_guid_history>10e8181e04d9c210ed6acf5ba50cb5c8:1023809132,94e8181e74d9c2106f7a6bce881c4bb3:-885839516</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Resources.DNB CarSharing">6c3dd4d2471dc21042ea995b116d43c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 09:40:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>24df0b1292354ba0a6a111ea89272b90</sys_id>
+        <sys_metadata>a1d8141e47d9c21042ea995b116d4363</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resources.DNB CarSharing</sys_name>
+        <sys_package/>
+        <sys_parent display_value="DNB CarSharing">af75a7f94751821042ea995b116d4323</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a1d8141e47d9c21042ea995b116d4363</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a1d8141e47d9c21042ea995b116d4363">1ce8181e47d9c21042ea995b116d43c8</sys_update_version>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:40:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
