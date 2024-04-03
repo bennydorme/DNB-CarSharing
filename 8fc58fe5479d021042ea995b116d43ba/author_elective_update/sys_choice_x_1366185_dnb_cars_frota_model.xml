@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="model" table="x_1366185_dnb_cars_frota" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>model</element>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>model</sys_name>
+            <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+            <sys_update_name>sys_choice_x_1366185_dnb_cars_frota_model</sys_update_name>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CITROEN C4 PICASSO</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>CITROEN C4 PICASSO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CORSA</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>CORSA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FIAT 500</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>FIAT 500</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FIAT 500 EV 100% ELECTRIC</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>FIAT 500 EV 100% ELECTRIC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FORD FOCUS</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>FORD FOCUS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MERCEDES BENZ VITO</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>MERCEDES BENZ VITO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MITSUBISHI PAJERO SPORT</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>MITSUBISHI PAJERO SPORT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NISSAN NAVARA</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>NISSAN NAVARA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PEUGEOT 208</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>PEUGEOT 208</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RENAULT ZOE 100% </label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>RENAULT ZOE 100% </value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TOYOTA AYGO-X</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>TOYOTA AYGO-X</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VOLKSWAGEN ID 3 </label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_frota</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BenAdmin</sys_created_by>
+            <sys_created_on>2024-04-02 21:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BenAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-02 21:19:26</sys_updated_on>
+            <value>VOLKSWAGEN ID 3 </value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

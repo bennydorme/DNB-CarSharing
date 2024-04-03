@@ -10,9 +10,9 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
+        <choice>1</choice>
+        <choice_field>model</choice_field>
+        <choice_table>x_1366185_dnb_cars_frota</choice_table>
         <column_label>Model</column_label>
         <comments/>
         <create_roles/>
@@ -57,8 +57,8 @@
         <sys_policy/>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name>sys_dictionary_x_1366185_dnb_cars_frota_model</sys_update_name>
-        <sys_updated_by>DianaAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-02 09:34:13</sys_updated_on>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 21:32:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

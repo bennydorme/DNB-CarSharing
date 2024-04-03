@@ -22,7 +22,22 @@
         </element>
         <element display="true" label="Kilometers" mandatory="true" max_length="40" name="kilometers" type="integer"/>
         <element label="Licence Plate" mandatory="true" max_length="40" name="licence_plate" type="string"/>
-        <element display="true" label="Model" mandatory="true" max_length="40" name="model" type="string"/>
+        <element choice="1" choice_field="model" choice_table="x_1366185_dnb_cars_frota" display="true" label="Model" mandatory="true" max_length="40" name="model" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CITROEN C4 PICASSO" value="CITROEN C4 PICASSO"/>
+                <element inactive_on_update="false" label="CORSA" value="CORSA"/>
+                <element inactive_on_update="false" label="FIAT 500" value="FIAT 500"/>
+                <element inactive_on_update="false" label="FIAT 500 EV 100% ELECTRIC" value="FIAT 500 EV 100% ELECTRIC"/>
+                <element inactive_on_update="false" label="FORD FOCUS" value="FORD FOCUS"/>
+                <element inactive_on_update="false" label="MERCEDES BENZ VITO" value="MERCEDES BENZ VITO"/>
+                <element inactive_on_update="false" label="MITSUBISHI PAJERO SPORT" value="MITSUBISHI PAJERO SPORT"/>
+                <element inactive_on_update="false" label="NISSAN NAVARA" value="NISSAN NAVARA"/>
+                <element inactive_on_update="false" label="PEUGEOT 208" value="PEUGEOT 208"/>
+                <element inactive_on_update="false" label="RENAULT ZOE 100% " value="RENAULT ZOE 100% "/>
+                <element inactive_on_update="false" label="TOYOTA AYGO-X" value="TOYOTA AYGO-X"/>
+                <element inactive_on_update="false" label="VOLKSWAGEN ID 3 " value="VOLKSWAGEN ID 3 "/>
+            </choice>
+        </element>
         <element choice="1" label="Seats" mandatory="true" max_length="40" name="seats" type="choice">
             <choice>
                 <element inactive_on_update="false" label="2" value="2"/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_template">
+    <sc_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for>cb8e06e9d7103100f2d224837e610339</available_for>
+        <cat_item display_value="Record Producer Builder">3558cf50c7321010159ca1e603c2605b</cat_item>
+        <name>DNB CarSharing</name>
+        <short_description>Best way to travel</short_description>
+        <sys_class_name>sc_template</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 10:54:08</sys_created_on>
+        <sys_id>2b5427794751821042ea995b116d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DNB CarSharing</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sc_template_2b5427794751821042ea995b116d431a</sys_update_name>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 10:54:08</sys_updated_on>
+        <use_template_scope>false</use_template_scope>
+    </sc_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b5427794751821042ea995b116d431a"/>
+</record_update>

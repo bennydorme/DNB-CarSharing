@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>show_brand</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 21:04:32</sys_created_on>
+        <sys_id>d72079c6475d821042ea995b116d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Brand</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>item_option_new_set_d72079c6475d821042ea995b116d43a2</sys_update_name>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 21:04:32</sys_updated_on>
+        <title>Show Brand</title>
+        <type>one_to_one</type>
+        <version/>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

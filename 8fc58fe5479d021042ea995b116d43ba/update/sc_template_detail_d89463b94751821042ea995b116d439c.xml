@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_template_detail">
+    <sc_template_detail action="INSERT_OR_UPDATE">
+        <applies_to_multi_row_variable_set>false</applies_to_multi_row_variable_set>
+        <item_option_new display_value="Selected categories">4d0b132273721010c84e2bb43cf6a7bb</item_option_new>
+        <mandatory>false</mandatory>
+        <readonly>false</readonly>
+        <restricted>false</restricted>
+        <set/>
+        <sys_class_name>sc_template_detail</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 10:54:09</sys_created_on>
+        <sys_id>d89463b94751821042ea995b116d439c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sc_template_detail_d89463b94751821042ea995b116d439c</sys_update_name>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 10:56:38</sys_updated_on>
+        <template display_value="DNB CarSharing">2b5427794751821042ea995b116d431a</template>
+        <value>9649d3394711821042ea995b116d4308,1ce81bf54711821042ea995b116d4332,4ff81fb54711821042ea995b116d43db,c0581fb54711821042ea995b116d43ae,4cb69d19c3921200b0449f2974d3ae69,ea399bf54711821042ea995b116d4341</value>
+    </sc_template_detail>
+</record_update>
