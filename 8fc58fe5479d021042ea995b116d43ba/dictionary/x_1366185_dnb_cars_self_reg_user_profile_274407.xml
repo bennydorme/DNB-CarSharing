@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="c3bf11e24719461042ea995b116d439a" label="Dnb Cars Self Reg User Profile 274407" max_length="40" name="x_1366185_dnb_cars_self_reg_user_profile_274407" type="collection">
+    <element label="Dnb Cars Self Reg User Profile 274407" max_length="40" name="x_1366185_dnb_cars_self_reg_user_profile_274407" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cvv" label="Cvv" max_length="40" name="cvv" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=drivers_licence" label="drivers licence" max_length="40" name="drivers_licence" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=drivers_license" label="drivers license" max_length="40" name="drivers_license" type="string"/>
     </element>
 </database>

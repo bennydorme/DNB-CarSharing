@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="user_activation_request" table="x_1366185_dnb_cars_user_acti_req_274407">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_1366185_dnb_cars_user_acti_req_274407">
         <active>true</active>
         <array>false</array>
         <attributes/>

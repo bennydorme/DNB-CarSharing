@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_1366185_dnb_cars_self_reg_user_profile_274407">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_self_registered_user_profile" table="x_1366185_dnb_cars_self_reg_user_profile_550796">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -30,7 +30,7 @@
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_1366185_dnb_cars_self_reg_user_profile_274407</name>
+        <name>x_1366185_dnb_cars_self_reg_user_profile_550796</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>DianaAdmin</sys_created_by>
-        <sys_created_on>2024-04-04 09:09:15</sys_created_on>
-        <sys_name>x_1366185_dnb_cars_self_reg_user_profile_274407</sys_name>
+        <sys_created_on>2024-04-04 15:38:01</sys_created_on>
+        <sys_name>x_1366185_dnb_cars_self_reg_user_profile_550796</sys_name>
         <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
         <sys_policy/>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
-        <sys_update_name>sys_dictionary_x_1366185_dnb_cars_self_reg_user_profile_274407_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1366185_dnb_cars_self_reg_user_profile_550796_null</sys_update_name>
         <sys_updated_by>DianaAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-04 09:09:15</sys_updated_on>
+        <sys_updated_on>2024-04-04 15:38:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
