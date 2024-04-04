@@ -11,7 +11,7 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>sys_user_registration_request</collection>
+        <collection>x_1366185_dnb_cars_user_reg_req_550796</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
@@ -32,9 +32,11 @@
 	var gr = new GlideRecord('x_1366185_dnb_cars_driver');
 	gr.initialize();
 	gr.status = current.status;
-	gr.first_name = current.first_name;
+	gr.name = current.first_name;
 	gr.last_name = current.last_name;
 	gr.email = current.email;
+	gr.credit_card= current.credit_card;
+	gr.driver_license= current.drivers_license;
 	gr.update();
 
 })(current, previous);]]></script>
@@ -44,15 +46,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d9154d5e47ddc21042ea995b116d43b0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Move aproved drivers to drivers table</sys_name>
         <sys_overrides/>
         <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
         <sys_policy/>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name>sys_script_d9154d5e47ddc21042ea995b116d43b0</sys_update_name>
-        <sys_updated_by>DianaAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-04 09:31:29</sys_updated_on>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-04 21:20:38</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

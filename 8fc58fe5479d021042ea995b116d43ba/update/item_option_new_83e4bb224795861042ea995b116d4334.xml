@@ -7,7 +7,7 @@
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
-        <create_roles/>
+        <create_roles>public</create_roles>
         <default_html_value/>
         <default_value/>
         <delete_roles/>
@@ -42,14 +42,14 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>drivers_license</name>
-        <order>700</order>
+        <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
         <question_text>Drivers license</question_text>
         <read_only>false</read_only>
-        <read_roles/>
+        <read_roles>public</read_roles>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -75,16 +75,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>BenAdmin</sys_created_by>
-        <sys_created_on>2024-04-04 19:55:05</sys_created_on>
-        <sys_id>2f43372e4755861042ea995b116d4378</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Drivers license</sys_name>
+        <sys_created_on>2024-04-04 20:01:04</sys_created_on>
+        <sys_id>83e4bb224795861042ea995b116d4334</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>drivers_license</sys_name>
         <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
         <sys_policy/>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
-        <sys_update_name>item_option_new_2f43372e4755861042ea995b116d4378</sys_update_name>
+        <sys_update_name>item_option_new_83e4bb224795861042ea995b116d4334</sys_update_name>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-04 19:55:05</sys_updated_on>
+        <sys_updated_on>2024-04-04 20:16:20</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -101,24 +101,24 @@
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
-        <write_roles/>
+        <write_roles>public</write_roles>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=2f43372e4755861042ea995b116d4378"/>
-    <fx_price action="delete_multiple" query="id=2f43372e4755861042ea995b116d4378"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=83e4bb224795861042ea995b116d4334"/>
+    <fx_price action="delete_multiple" query="id=83e4bb224795861042ea995b116d4334"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>price_if_checked</field>
-        <id>2f43372e4755861042ea995b116d4378</id>
+        <id>83e4bb224795861042ea995b116d4334</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>BenAdmin</sys_created_by>
-        <sys_created_on>2024-04-04 19:55:05</sys_created_on>
-        <sys_id>2b8337ae4755861042ea995b116d43ab</sys_id>
+        <sys_created_on>2024-04-04 20:01:04</sys_created_on>
+        <sys_id>93e4bb224795861042ea995b116d433b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-04 19:55:05</sys_updated_on>
+        <sys_updated_on>2024-04-04 20:01:04</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>rec_price_if_checked</field>
-        <id>2f43372e4755861042ea995b116d4378</id>
+        <id>83e4bb224795861042ea995b116d4334</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>BenAdmin</sys_created_by>
-        <sys_created_on>2024-04-04 19:55:05</sys_created_on>
-        <sys_id>af8337ae4755861042ea995b116d43aa</sys_id>
+        <sys_created_on>2024-04-04 20:01:04</sys_created_on>
+        <sys_id>1be4bb224795861042ea995b116d433a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-04 19:55:05</sys_updated_on>
+        <sys_updated_on>2024-04-04 20:01:04</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

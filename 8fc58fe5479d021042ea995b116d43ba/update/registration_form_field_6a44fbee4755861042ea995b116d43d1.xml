@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field">
+    <registration_form_field action="INSERT_OR_UPDATE">
+        <column_label>Drivers license</column_label>
+        <column_name>driver_license</column_name>
+        <custom_field>true</custom_field>
+        <display>true</display>
+        <mandatory>true</mandatory>
+        <order>500</order>
+        <registration_configuration display_value="DNB car sharing user registration">95a8f2ee4711861042ea995b116d43d9</registration_configuration>
+        <sys_class_name>registration_form_field</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-04 19:58:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6a44fbee4755861042ea995b116d43d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Drivers license</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>registration_form_field_6a44fbee4755861042ea995b116d43d1</sys_update_name>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-04 20:07:07</sys_updated_on>
+        <type>6</type>
+        <validation_only>false</validation_only>
+    </registration_form_field>
+</record_update>
