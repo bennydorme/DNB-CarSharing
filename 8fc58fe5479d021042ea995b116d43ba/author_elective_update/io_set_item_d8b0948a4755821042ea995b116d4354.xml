@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>30000</order>
+        <sc_cat_item display_value="Car sharing customers registration">08b0548a4755821042ea995b116d43f0</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 14:06:56</sys_created_on>
+        <sys_id>d8b0948a4755821042ea995b116d4354</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>User Registration Form Default Variable Set.Car sharing customers registration</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>io_set_item_d8b0948a4755821042ea995b116d4354</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 14:06:56</sys_updated_on>
+        <variable_set display_value="User Registration Form Default Variable Set">a2c966c573330010fdbd04fbc4f6a773</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>io_set_item_d8b0948a4755821042ea995b116d4354</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>30000</order><sc_cat_item display_value="Car sharing customers registration">08b0548a4755821042ea995b116d43f0</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>DianaAdmin</sys_created_by><sys_created_on>2024-04-02 14:06:56</sys_created_on><sys_id>d8b0948a4755821042ea995b116d4354</sys_id><sys_mod_count>1</sys_mod_count><sys_name>User Registration Form Default Variable Set.Car sharing customers registration</sys_name><sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package><sys_policy/><sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope><sys_update_name>io_set_item_d8b0948a4755821042ea995b116d4354</sys_update_name><sys_updated_by>DianaAdmin</sys_updated_by><sys_updated_on>2024-04-02 14:06:56</sys_updated_on><variable_set display_value="User Registration Form Default Variable Set">a2c966c573330010fdbd04fbc4f6a773</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1581159976</payload_hash>
+        <record_name>User Registration Form Default Variable Set.Car sharing customers registration</record_name>
+        <reverted_from/>
+        <source>7110d7e947d1021042ea995b116d4372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 14:06:56</sys_created_on>
+        <sys_id>5cb0948a4755821042ea995b116d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9f226b120000001</sys_recorded_at>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-02 14:06:56</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>50b0948a4d558210d55ca57941f2407b</update_guid>
+        <update_guid_history>50b0948a4d558210d55ca57941f2407b:1581159976</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="User Registration Form Default Variable Set.Car sharing customers registration">6ac76d9247d1061042ea995b116d43be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 15:05:57</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>076f01cde8434e468077457bcd1d49c4</sys_id>
+        <sys_metadata>d8b0948a4755821042ea995b116d4354</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Registration Form Default Variable Set.Car sharing customers registration</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>io_set_item_d8b0948a4755821042ea995b116d4354</sys_update_name>
+        <sys_update_version display_value="io_set_item_d8b0948a4755821042ea995b116d4354">5cb0948a4755821042ea995b116d437b</sys_update_version>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 15:05:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

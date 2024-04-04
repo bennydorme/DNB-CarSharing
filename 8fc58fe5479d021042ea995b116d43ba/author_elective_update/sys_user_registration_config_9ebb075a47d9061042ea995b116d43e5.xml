@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_user_registration_config">
+    <sys_user_registration_config action="DELETE">
+        <activation_error_page display_value="sn_user_activation_error">b8e54fb1533200102b12ddeeff7b1286</activation_error_page>
+        <activation_link_expiry_time>24</activation_link_expiry_time>
+        <activation_success_page display_value="sn_user_activation_success">2df447b1533200102b12ddeeff7b12c5</activation_success_page>
+        <activation_table>x_1366185_dnb_cars_user_acti_req_835216</activation_table>
+        <active>true</active>
+        <description><![CDATA[<p>Account Creation for DNB car sharing</p>]]></description>
+        <enable_captcha>false</enable_captcha>
+        <enable_terms>true</enable_terms>
+        <internal_name>x_1366185_dnb_cars.car sharing DNB user registration</internal_name>
+        <name>car sharing DNB user registration</name>
+        <post_registration_redirect_page display_value="sn_user_post_registration_redirect">61638b31533200102b12ddeeff7b12f5</post_registration_redirect_page>
+        <record_producer/>
+        <registration_label>Register</registration_label>
+        <registration_table>x_1366185_dnb_cars_user_reg_req_835216</registration_table>
+        <requires_user_verification>false</requires_user_verification>
+        <role_to_assign name="snc_external">940ba702933002009c8579b4f47ffbe2</role_to_assign>
+        <sys_class_name>sys_user_registration_config</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 22:22:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9ebb075a47d9061042ea995b116d43e5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>car sharing DNB user registration</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sys_user_registration_config_9ebb075a47d9061042ea995b116d43e5</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-04 09:01:37</sys_updated_on>
+        <terms_and_condition_url>https://support.servicenow.com/kb?id=kb_article_view&amp;sysparm_article=KB0751522</terms_and_condition_url>
+        <transform_map/>
+        <user_onboarding_flow display_value="External User Onboarding">3539c77e5376001001a3ddeeff7b1214</user_onboarding_flow>
+        <user_table>x_1366185_dnb_cars_self_reg_user_profile_835216</user_table>
+        <user_verification_flow display_value="External User Verification">ecebaf7a533200102b12ddeeff7b1257</user_verification_flow>
+    </sys_user_registration_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>sys_user_registration_config_9ebb075a47d9061042ea995b116d43e5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_user_registration_config"&gt;&lt;sys_user_registration_config action="INSERT_OR_UPDATE"&gt;&lt;activation_error_page display_value="sn_user_activation_error"&gt;b8e54fb1533200102b12ddeeff7b1286&lt;/activation_error_page&gt;&lt;activation_link_expiry_time&gt;24&lt;/activation_link_expiry_time&gt;&lt;activation_success_page display_value="sn_user_activation_success"&gt;2df447b1533200102b12ddeeff7b12c5&lt;/activation_success_page&gt;&lt;activation_table&gt;x_1366185_dnb_cars_user_acti_req_835216&lt;/activation_table&gt;&lt;active&gt;true&lt;/active&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;Account Creation for DNB car sharing&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;enable_captcha&gt;false&lt;/enable_captcha&gt;&lt;enable_terms&gt;true&lt;/enable_terms&gt;&lt;internal_name&gt;x_1366185_dnb_cars.car sharing DNB user registration&lt;/internal_name&gt;&lt;name&gt;car sharing DNB user registration&lt;/name&gt;&lt;post_registration_redirect_page display_value="sn_user_post_registration_redirect"&gt;61638b31533200102b12ddeeff7b12f5&lt;/post_registration_redirect_page&gt;&lt;record_producer/&gt;&lt;registration_label&gt;Register&lt;/registration_label&gt;&lt;registration_table&gt;x_1366185_dnb_cars_user_reg_req_835216&lt;/registration_table&gt;&lt;requires_user_verification&gt;false&lt;/requires_user_verification&gt;&lt;role_to_assign name="snc_external"&gt;940ba702933002009c8579b4f47ffbe2&lt;/role_to_assign&gt;&lt;sys_class_name&gt;sys_user_registration_config&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DianaAdmin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-03 22:22:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;9ebb075a47d9061042ea995b116d43e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;car sharing DNB user registration&lt;/sys_name&gt;&lt;sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars"&gt;8fc58fe5479d021042ea995b116d43ba&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DNB CarSharing"&gt;8fc58fe5479d021042ea995b116d43ba&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_user_registration_config_9ebb075a47d9061042ea995b116d43e5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DianaAdmin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 09:01:37&lt;/sys_updated_on&gt;&lt;terms_and_condition_url&gt;https://support.servicenow.com/kb?id=kb_article_view&amp;amp;sysparm_article=KB0751522&lt;/terms_and_condition_url&gt;&lt;transform_map/&gt;&lt;user_onboarding_flow display_value="External User Onboarding"&gt;3539c77e5376001001a3ddeeff7b1214&lt;/user_onboarding_flow&gt;&lt;user_table&gt;x_1366185_dnb_cars_self_reg_user_profile_835216&lt;/user_table&gt;&lt;user_verification_flow display_value="External User Verification"&gt;ecebaf7a533200102b12ddeeff7b1257&lt;/user_verification_flow&gt;&lt;/sys_user_registration_config&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1916094623</payload_hash>
+        <record_name>car sharing DNB user registration</record_name>
+        <reverted_from/>
+        <source>7110d7e947d1021042ea995b116d4372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-04 09:08:36</sys_created_on>
+        <sys_id>699fd9a24719461042ea995b116d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea85dfed90000001</sys_recorded_at>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-04 09:08:36</sys_updated_on>
+        <type>User Registration Configuration</type>
+        <update_guid>1ffd91220c194610722c534a9326e2bf</update_guid>
+        <update_guid_history>1ffd91220c194610722c534a9326e2bf:1884385244,1ffd91220c194610722c534a9326e2bf:1884385244,9c159b5a2e1d0610c96068c5d75bc086:1541247667,dceb4fda34d90610349273726f6d2fc9:700547848,dceb4fda34d90610349273726f6d2fc9:700547848,94eb4f9a6fd906102f343b57ebf45feb:1014654500</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-04 09:08:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_registration_config">sys_user_registration_config</sys_db_object>
+        <sys_id>e7863e10e9f94a59a2ef5c6353f55009</sys_id>
+        <sys_metadata>9ebb075a47d9061042ea995b116d43e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>car sharing DNB user registration</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>sys_user_registration_config_9ebb075a47d9061042ea995b116d43e5</sys_update_name>
+        <sys_update_version display_value="sys_user_registration_config_9ebb075a47d9061042ea995b116d43e5">699fd9a24719461042ea995b116d4327</sys_update_version>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-04 09:08:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

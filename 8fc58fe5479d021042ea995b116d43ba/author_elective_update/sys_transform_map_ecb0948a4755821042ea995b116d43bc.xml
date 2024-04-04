@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>All Fields</enforce_mandatory_fields>
+        <name>u_reg_xmap_775382</name>
+        <order>200</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_1366185_dnb_cars_user_acti_req_810988</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 14:06:57</sys_created_on>
+        <sys_id>ecb0948a4755821042ea995b116d43bc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>u_reg_xmap_775382</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sys_transform_map_ecb0948a4755821042ea995b116d43bc</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 14:43:40</sys_updated_on>
+        <target_table>x_1366185_dnb_cars_self_reg_user_profile_810988</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>sys_transform_map_ecb0948a4755821042ea995b116d43bc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;All Fields&lt;/enforce_mandatory_fields&gt;&lt;name&gt;u_reg_xmap_775382&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_1366185_dnb_cars_user_acti_req_810988&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DianaAdmin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-02 14:06:57&lt;/sys_created_on&gt;&lt;sys_id&gt;ecb0948a4755821042ea995b116d43bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_reg_xmap_775382&lt;/sys_name&gt;&lt;sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars"&gt;8fc58fe5479d021042ea995b116d43ba&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DNB CarSharing"&gt;8fc58fe5479d021042ea995b116d43ba&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_ecb0948a4755821042ea995b116d43bc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DianaAdmin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-03 14:43:40&lt;/sys_updated_on&gt;&lt;target_table&gt;x_1366185_dnb_cars_self_reg_user_profile_810988&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-800367863</payload_hash>
+        <record_name>u_reg_xmap_775382</record_name>
+        <reverted_from/>
+        <source>7110d7e947d1021042ea995b116d4372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 14:43:40</sys_created_on>
+        <sys_id>c8b2259a4791061042ea995b116d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea46a67ab0000001</sys_recorded_at>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 14:43:40</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>40b2259a7a910610ee7ca08d832076a9</update_guid>
+        <update_guid_history>40b2259a7a910610ee7ca08d832076a9:-800367863,d631add6e591061047168002e329c8ab:1570218538,15dd55922c9106103542738332710b82:-800367863,60b0948a54558210bd9e3cab0ac344be:616571043</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 21:55:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>6c38b0cc8efe4a44bedead5e061b4151</sys_id>
+        <sys_metadata>ecb0948a4755821042ea995b116d43bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reg_xmap_775382</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>sys_transform_map_ecb0948a4755821042ea995b116d43bc</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_ecb0948a4755821042ea995b116d43bc">c8b2259a4791061042ea995b116d43a9</sys_update_version>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 21:55:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

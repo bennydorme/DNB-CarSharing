@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e7a0548a4755821042ea995b116d4380" extends="sys_self_registered_user_profile" label="Dnb Cars Self Reg User Profile 810988" max_length="40" name="x_1366185_dnb_cars_self_reg_user_profile_810988" type="collection">
+    <element label="Dnb Cars Self Reg User Profile 810988" max_length="40" name="x_1366185_dnb_cars_self_reg_user_profile_810988" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=country" label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=credit_card_expiry_date" label="Credit Card expiry date" max_length="40" name="credit_card_expiry_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=credit_card_number" label="credit card number" max_length="40" name="credit_card_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cvv" label="CVV" max_length="40" name="cvv" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=driving_licence_expiry_date" label="driving licence expiry date" max_length="40" name="driving_licence_expiry_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=driving_licence_number" label="Driving licence number" max_length="40" name="driving_licence_number" type="string"/>
     </element>

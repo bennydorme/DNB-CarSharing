@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Dnb Cars User Acti Req 835216" max_length="40" name="x_1366185_dnb_cars_user_acti_req_835216" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=credit_card_number" label="Credit card number" max_length="40" name="credit_card_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cvv" label="CVV" max_length="40" name="cvv" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=driver_licence_number" label="Driver Licence Number" max_length="40" name="driver_licence_number" type="string"/>
+    </element>
+</database>

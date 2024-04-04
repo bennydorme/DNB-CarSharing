@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d6cb48ce4715821042ea995b116d43db" max_length="40" name="x_1366185_dnb_cars_driver" type="collection">
+        <element label="Date of Birth" mandatory="true" max_length="40" name="birth_date" type="glide_date"/>
+        <element label="Last name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="First name" mandatory="true" max_length="50" name="name" type="string"/>
+    </element>
+</database>

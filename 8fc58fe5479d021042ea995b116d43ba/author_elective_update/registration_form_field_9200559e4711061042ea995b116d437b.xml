@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field">
+    <registration_form_field action="DELETE">
+        <column_label>Date of Birth</column_label>
+        <column_name>date_of_birth</column_name>
+        <custom_field>true</custom_field>
+        <display>true</display>
+        <mandatory>true</mandatory>
+        <order>10000</order>
+        <registration_configuration display_value="Car sharing customers registration">a26f8cc64755821042ea995b116d430f</registration_configuration>
+        <sys_class_name>registration_form_field</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 13:23:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9200559e4711061042ea995b116d437b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Date of Birth</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>registration_form_field_9200559e4711061042ea995b116d437b</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 21:16:10</sys_updated_on>
+        <type>6</type>
+        <validation_only>false</validation_only>
+    </registration_form_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>registration_form_field_9200559e4711061042ea995b116d437b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field"><registration_form_field action="INSERT_OR_UPDATE"><column_label>Date of Birth</column_label><column_name>date_of_birth</column_name><custom_field>true</custom_field><display>true</display><mandatory>true</mandatory><order>10000</order><registration_configuration display_value="Car sharing customers registration">a26f8cc64755821042ea995b116d430f</registration_configuration><sys_class_name>registration_form_field</sys_class_name><sys_created_by>DianaAdmin</sys_created_by><sys_created_on>2024-04-03 13:23:37</sys_created_on><sys_domain>global</sys_domain><sys_id>9200559e4711061042ea995b116d437b</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Date of Birth</sys_name><sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package><sys_policy/><sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope><sys_update_name>registration_form_field_9200559e4711061042ea995b116d437b</sys_update_name><sys_updated_by>DianaAdmin</sys_updated_by><sys_updated_on>2024-04-03 21:16:10</sys_updated_on><type>6</type><validation_only>false</validation_only></registration_form_field></record_update>]]></payload>
+        <payload_hash>-1598878402</payload_hash>
+        <record_name>Date of Birth</record_name>
+        <reverted_from/>
+        <source>7110d7e947d1021042ea995b116d4372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 21:16:10</sys_created_on>
+        <sys_id>a58c3a564799061042ea995b116d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea5d1bde50000001</sys_recorded_at>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 21:16:10</sys_updated_on>
+        <type>Registration Form Field</type>
+        <update_guid>2d8c3a5659990610016e167a0160fe1b</update_guid>
+        <update_guid_history>2d8c3a5659990610016e167a0160fe1b:-1598878402,17cc2d9a72d10610351154398a5992b6:907193469,ab5055dede110610d9ef2ebc48c40d4b:617997872</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Date of Birth">3885879247d9061042ea995b116d433b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 21:55:26</sys_created_on>
+        <sys_db_object display_value="" name="registration_form_field">registration_form_field</sys_db_object>
+        <sys_id>202b306ab1164ed083accf4ab9d97c40</sys_id>
+        <sys_metadata>9200559e4711061042ea995b116d437b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Date of Birth</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>registration_form_field_9200559e4711061042ea995b116d437b</sys_update_name>
+        <sys_update_version display_value="registration_form_field_9200559e4711061042ea995b116d437b">a58c3a564799061042ea995b116d431c</sys_update_version>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 21:55:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

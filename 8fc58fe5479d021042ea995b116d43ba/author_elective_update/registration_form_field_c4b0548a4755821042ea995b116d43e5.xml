@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field">
+    <registration_form_field action="DELETE">
+        <column_label>First name</column_label>
+        <column_name>first_name</column_name>
+        <custom_field>false</custom_field>
+        <display>false</display>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <registration_configuration display_value="Car sharing customers registration">a26f8cc64755821042ea995b116d430f</registration_configuration>
+        <sys_class_name>registration_form_field</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-02 14:06:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c4b0548a4755821042ea995b116d43e5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>First name</sys_name>
+        <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">9ddbc8ce4715821042ea995b116d4308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>registration_form_field_c4b0548a4755821042ea995b116d43e5</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 15:27:51</sys_updated_on>
+        <type>6</type>
+        <validation_only>false</validation_only>
+    </registration_form_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>registration_form_field_c4b0548a4755821042ea995b116d43e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field"><registration_form_field action="INSERT_OR_UPDATE"><column_label>First name</column_label><column_name>first_name</column_name><custom_field>false</custom_field><display>false</display><mandatory>false</mandatory><order>100</order><registration_configuration display_value="Car sharing customers registration">a26f8cc64755821042ea995b116d430f</registration_configuration><sys_class_name>registration_form_field</sys_class_name><sys_created_by>DianaAdmin</sys_created_by><sys_created_on>2024-04-02 14:06:55</sys_created_on><sys_domain>global</sys_domain><sys_id>c4b0548a4755821042ea995b116d43e5</sys_id><sys_mod_count>2</sys_mod_count><sys_name>First name</sys_name><sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">9ddbc8ce4715821042ea995b116d4308</sys_package><sys_policy/><sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope><sys_update_name>registration_form_field_c4b0548a4755821042ea995b116d43e5</sys_update_name><sys_updated_by>DianaAdmin</sys_updated_by><sys_updated_on>2024-04-03 15:27:51</sys_updated_on><type>6</type><validation_only>false</validation_only></registration_form_field></record_update>]]></payload>
+        <payload_hash>-1577473631</payload_hash>
+        <record_name>First name</record_name>
+        <reverted_from/>
+        <source>7110d7e947d1021042ea995b116d4372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 15:27:51</sys_created_on>
+        <sys_id>9fcc2d9a47d1061042ea995b116d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea492d9d70000001</sys_recorded_at>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 15:27:51</sys_updated_on>
+        <type>Registration Form Field</type>
+        <update_guid>57cc2d9ae7d10610a4ea6925b2e0cfb9</update_guid>
+        <update_guid_history>57cc2d9ae7d10610a4ea6925b2e0cfb9:-1577473631,31ae9096201dc210c553cb449e2facb2:-1840235517,08b0548ad05582103ac7034c3b0f25e6:250507250</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="First name">7885879247d9061042ea995b116d4353</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 21:55:26</sys_created_on>
+        <sys_db_object display_value="" name="registration_form_field">registration_form_field</sys_db_object>
+        <sys_id>5d379a927e6645689a7849ae2d6555e4</sys_id>
+        <sys_metadata>c4b0548a4755821042ea995b116d43e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>First name</sys_name>
+        <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">9ddbc8ce4715821042ea995b116d4308</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>registration_form_field_c4b0548a4755821042ea995b116d43e5</sys_update_name>
+        <sys_update_version display_value="registration_form_field_c4b0548a4755821042ea995b116d43e5">9fcc2d9a47d1061042ea995b116d43b9</sys_update_version>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 21:55:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

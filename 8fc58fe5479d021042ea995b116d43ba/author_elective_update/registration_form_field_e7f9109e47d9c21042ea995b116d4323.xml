@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field">
+    <registration_form_field action="DELETE">
+        <column_label>Driving licence number</column_label>
+        <column_name>driving_licence_number</column_name>
+        <custom_field>true</custom_field>
+        <display>true</display>
+        <mandatory>true</mandatory>
+        <order>10000</order>
+        <registration_configuration display_value="Car sharing customers registration">a26f8cc64755821042ea995b116d430f</registration_configuration>
+        <sys_class_name>registration_form_field</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 09:37:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e7f9109e47d9c21042ea995b116d4323</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Driving licence number</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>registration_form_field_e7f9109e47d9c21042ea995b116d4323</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:46:26</sys_updated_on>
+        <type>6</type>
+        <validation_only>false</validation_only>
+    </registration_form_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>registration_form_field_e7f9109e47d9c21042ea995b116d4323</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field"><registration_form_field action="INSERT_OR_UPDATE"><column_label>Driving licence number</column_label><column_name>driving_licence_number</column_name><custom_field>true</custom_field><display>true</display><mandatory>true</mandatory><order>10000</order><registration_configuration display_value="Car sharing customers registration">a26f8cc64755821042ea995b116d430f</registration_configuration><sys_class_name>registration_form_field</sys_class_name><sys_created_by>DianaAdmin</sys_created_by><sys_created_on>2024-04-03 09:37:31</sys_created_on><sys_domain>global</sys_domain><sys_id>e7f9109e47d9c21042ea995b116d4323</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Driving licence number</sys_name><sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package><sys_policy/><sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope><sys_update_name>registration_form_field_e7f9109e47d9c21042ea995b116d4323</sys_update_name><sys_updated_by>DianaAdmin</sys_updated_by><sys_updated_on>2024-04-03 09:46:26</sys_updated_on><type>6</type><validation_only>false</validation_only></registration_form_field></record_update>]]></payload>
+        <payload_hash>-1024814941</payload_hash>
+        <record_name>Driving licence number</record_name>
+        <reverted_from/>
+        <source>7110d7e947d1021042ea995b116d4372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 09:46:26</sys_created_on>
+        <sys_id>86ae9096471dc21042ea995b116d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea35a46530000001</sys_recorded_at>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:46:26</sys_updated_on>
+        <type>Registration Form Field</type>
+        <update_guid>0eae9096231dc210d173f9febcdf66e3</update_guid>
+        <update_guid_history>0eae9096231dc210d173f9febcdf66e3:-1024814941,a79c5492031dc210281b82cc808a3147:-1706159938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Driving licence number">b485879247d9061042ea995b116d4358</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 21:55:26</sys_created_on>
+        <sys_db_object display_value="" name="registration_form_field">registration_form_field</sys_db_object>
+        <sys_id>204ab8b79857472a90a6568a087d4444</sys_id>
+        <sys_metadata>e7f9109e47d9c21042ea995b116d4323</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Driving licence number</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>registration_form_field_e7f9109e47d9c21042ea995b116d4323</sys_update_name>
+        <sys_update_version display_value="registration_form_field_e7f9109e47d9c21042ea995b116d4323">86ae9096471dc21042ea995b116d43e4</sys_update_version>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 21:55:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
