@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="febf11e24719461042ea995b116d4338" extends="user_activation_request" label="Dnb Cars User Acti Req 274407" max_length="40" name="x_1366185_dnb_cars_user_acti_req_274407" type="collection"/>
+    <element db_object_id="febf11e24719461042ea995b116d4338" label="Dnb Cars User Acti Req 274407" max_length="40" name="x_1366185_dnb_cars_user_acti_req_274407" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=drivers_license" label="drivers license" max_length="40" name="drivers_license" type="string"/>
+    </element>
 </database>
