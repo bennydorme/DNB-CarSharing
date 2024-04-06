@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_mat">
+    <catalog_dl_definition_rel_mat action="DELETE">
+        <applies_to>item</applies_to>
+        <catalog_item/>
+        <dl_definition display_value="Records fields detailled seats">27c61c1a47d9c21042ea995b116d4326</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_1366185_dnb_cars_frota</matcher_table>
+        <matcher_table_field>model</matcher_table_field>
+        <source_catalog_variable>IO:04b6181a47d9c21042ea995b116d430b</source_catalog_variable>
+        <source_table/>
+        <source_table_field/>
+        <source_variable>wich_is_your_car_preference</source_variable>
+        <sys_class_name>catalog_dl_definition_rel_mat</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 09:13:23</sys_created_on>
+        <sys_id>3a07d05a47d9c21042ea995b116d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IO:04b6181a47d9c21042ea995b116d430b</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>catalog_dl_definition_rel_mat_3a07d05a47d9c21042ea995b116d4383</sys_update_name>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:13:23</sys_updated_on>
+        <variable_set/>
+    </catalog_dl_definition_rel_mat>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>catalog_dl_definition_rel_mat_3a07d05a47d9c21042ea995b116d4383</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_mat"><catalog_dl_definition_rel_mat action="INSERT_OR_UPDATE"><applies_to>item</applies_to><catalog_item/><dl_definition display_value="Records fields detailled seats">27c61c1a47d9c21042ea995b116d4326</dl_definition><exact_match>false</exact_match><matcher_table>x_1366185_dnb_cars_frota</matcher_table><matcher_table_field>model</matcher_table_field><source_catalog_variable>IO:04b6181a47d9c21042ea995b116d430b</source_catalog_variable><source_table/><source_table_field/><source_variable>wich_is_your_car_preference</source_variable><sys_class_name>catalog_dl_definition_rel_mat</sys_class_name><sys_created_by>BenAdmin</sys_created_by><sys_created_on>2024-04-03 09:13:23</sys_created_on><sys_id>3a07d05a47d9c21042ea995b116d4383</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IO:04b6181a47d9c21042ea995b116d430b</sys_name><sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package><sys_policy/><sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope><sys_update_name>catalog_dl_definition_rel_mat_3a07d05a47d9c21042ea995b116d4383</sys_update_name><sys_updated_by>BenAdmin</sys_updated_by><sys_updated_on>2024-04-03 09:13:23</sys_updated_on><variable_set/></catalog_dl_definition_rel_mat></record_update>]]></payload>
+        <payload_hash>964975608</payload_hash>
+        <record_name>IO:04b6181a47d9c21042ea995b116d430b</record_name>
+        <reverted_from/>
+        <source>33d8d41e47d9c21042ea995b116d431c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 09:21:21</sys_created_on>
+        <sys_id>66e89c1e47d9c21042ea995b116d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea34351330000001</sys_recorded_at>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:21:21</sys_updated_on>
+        <type>Catalog Matcher Variable Definitions</type>
+        <update_guid>62e89c1e19d9c21077a78382274acb20</update_guid>
+        <update_guid_history>62e89c1e19d9c21077a78382274acb20:0,8a17105a0ad9c210468a983887be9eb5:-2091343909</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="IO:04b6181a47d9c21042ea995b116d430b">fbe89c1e47d9c21042ea995b116d43c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 09:21:26</sys_created_on>
+        <sys_db_object display_value="" name="catalog_dl_definition_rel_mat">catalog_dl_definition_rel_mat</sys_db_object>
+        <sys_id>0038247d15a94280800e97dcdab64000</sys_id>
+        <sys_metadata>3a07d05a47d9c21042ea995b116d4383</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IO:04b6181a47d9c21042ea995b116d430b</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>catalog_dl_definition_rel_mat_3a07d05a47d9c21042ea995b116d4383</sys_update_name>
+        <sys_update_version display_value="catalog_dl_definition_rel_mat_3a07d05a47d9c21042ea995b116d4383">66e89c1e47d9c21042ea995b116d4320</sys_update_version>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:21:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

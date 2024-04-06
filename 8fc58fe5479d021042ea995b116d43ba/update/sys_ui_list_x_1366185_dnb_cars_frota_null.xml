@@ -3,62 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>model</element>
-            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4b06ff14751821042ea995b116d43f2</list_id>
+            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d2dee96e4759461042ea995b116d43bf</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 10:37:12</sys_created_on>
-            <sys_id>04b06ff14751821042ea995b116d43f3</sys_id>
+            <sys_created_by>NelsonAdmin</sys_created_by>
+            <sys_created_on>2024-04-04 10:15:17</sys_created_on>
+            <sys_id>12dee96e4759461042ea995b116d43c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 10:37:12</sys_updated_on>
+            <sys_updated_by>NelsonAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-04 10:15:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_by</element>
-            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4b06ff14751821042ea995b116d43f2</list_id>
+            <element>category</element>
+            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d2dee96e4759461042ea995b116d43bf</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 10:37:12</sys_created_on>
-            <sys_id>08b06ff14751821042ea995b116d43f3</sys_id>
+            <sys_created_by>NelsonAdmin</sys_created_by>
+            <sys_created_on>2024-04-04 10:15:17</sys_created_on>
+            <sys_id>16dee96e4759461042ea995b116d43c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 10:37:12</sys_updated_on>
+            <sys_updated_by>NelsonAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-04 10:15:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4b06ff14751821042ea995b116d43f2</list_id>
+            <element>sys_created_by</element>
+            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d2dee96e4759461042ea995b116d43bf</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 10:37:12</sys_created_on>
-            <sys_id>0cb06ff14751821042ea995b116d43f3</sys_id>
+            <sys_created_by>NelsonAdmin</sys_created_by>
+            <sys_created_on>2024-04-04 10:15:17</sys_created_on>
+            <sys_id>1adee96e4759461042ea995b116d43c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 10:37:12</sys_updated_on>
+            <sys_updated_by>NelsonAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-04 10:15:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4b06ff14751821042ea995b116d43f2</list_id>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d2dee96e4759461042ea995b116d43bf</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 10:37:12</sys_created_on>
-            <sys_id>00b06ff14751821042ea995b116d43f4</sys_id>
+            <sys_created_by>NelsonAdmin</sys_created_by>
+            <sys_created_on>2024-04-04 10:15:17</sys_created_on>
+            <sys_id>1edee96e4759461042ea995b116d43c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 10:37:12</sys_updated_on>
+            <sys_updated_by>NelsonAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-04 10:15:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d2dee96e4759461042ea995b116d43bf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>NelsonAdmin</sys_created_by>
+            <sys_created_on>2024-04-04 10:15:17</sys_created_on>
+            <sys_id>12dee96e4759461042ea995b116d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NelsonAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-04 10:15:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>day_price</element>
+            <list_id display_value="x_1366185_dnb_cars_frota" element="NULL" name="x_1366185_dnb_cars_frota" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d2dee96e4759461042ea995b116d43bf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>NelsonAdmin</sys_created_by>
+            <sys_created_on>2024-04-04 10:15:17</sys_created_on>
+            <sys_id>16dee96e4759461042ea995b116d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NelsonAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-04 10:15:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -71,19 +101,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>DianaAdmin</sys_created_by>
-            <sys_created_on>2024-04-02 10:37:12</sys_created_on>
+            <sys_created_by>NelsonAdmin</sys_created_by>
+            <sys_created_on>2024-04-04 10:15:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c4b06ff14751821042ea995b116d43f2</sys_id>
+            <sys_id>d2dee96e4759461042ea995b116d43bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1366185_dnb_cars_frota</sys_name>
             <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
             <sys_policy/>
             <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
             <sys_update_name>sys_ui_list_x_1366185_dnb_cars_frota_null</sys_update_name>
-            <sys_updated_by>DianaAdmin</sys_updated_by>
-            <sys_updated_on>2024-04-02 10:37:12</sys_updated_on>
+            <sys_updated_by>NelsonAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-04 10:15:17</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

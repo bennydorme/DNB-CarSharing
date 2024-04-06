@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>query</name>
+        <rest_message_function display_value="Default GET">5c791d2a47d5461042ea995b116d43ec</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>NelsonAdmin</sys_created_by>
+        <sys_created_on>2024-04-04 08:48:03</sys_created_on>
+        <sys_id>47cad1ea47d5461042ea995b116d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>query</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_47cad1ea47d5461042ea995b116d43bd</sys_update_name>
+        <sys_updated_by>NelsonAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-04 08:48:03</sys_updated_on>
+        <type>string</type>
+        <value>Viseu</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

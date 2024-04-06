@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">glide_date</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1366185_dnb_cars_driver</name>
         <next_element/>
@@ -57,8 +57,8 @@
         <sys_policy/>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name>sys_dictionary_x_1366185_dnb_cars_driver_birth_date</sys_update_name>
-        <sys_updated_by>DianaAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-03 13:21:50</sys_updated_on>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-05 09:47:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

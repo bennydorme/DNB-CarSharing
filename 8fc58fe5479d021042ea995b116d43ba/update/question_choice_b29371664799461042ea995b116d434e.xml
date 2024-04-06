@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Pick Up Location">16c125e64719461042ea995b116d4371</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-04 10:36:04</sys_created_on>
+        <sys_id>b29371664799461042ea995b116d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Almada</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>question_choice_b29371664799461042ea995b116d434e</sys_update_name>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:36:04</sys_updated_on>
+        <text>Almada</text>
+        <value>almada</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b29371664799461042ea995b116d434e"/>
+</record_update>

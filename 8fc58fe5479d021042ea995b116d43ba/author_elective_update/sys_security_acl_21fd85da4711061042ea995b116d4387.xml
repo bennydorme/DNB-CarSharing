@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_1366185_dnb_cars_rental_history</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1366185_dnb_cars_rental_history</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>NelsonAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 13:13:07</sys_created_on>
+        <sys_id>21fd85da4711061042ea995b116d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1366185_dnb_cars_rental_history</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sys_security_acl_21fd85da4711061042ea995b116d4387</sys_update_name>
+        <sys_updated_by>NelsonAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 13:13:07</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</application>
+        <file_path/>
+        <instance_id>dc510afe1b8eb15065324089bd4bcba4</instance_id>
+        <instance_name>dev194661</instance_name>
+        <name>sys_security_acl_21fd85da4711061042ea995b116d4387</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>Default access control on x_1366185_dnb_cars_rental_history</description><local_or_existing>Local</local_or_existing><name>x_1366185_dnb_cars_rental_history</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>NelsonAdmin</sys_created_by><sys_created_on>2024-04-03 13:13:07</sys_created_on><sys_id>21fd85da4711061042ea995b116d4387</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1366185_dnb_cars_rental_history</sys_name><sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package><sys_policy/><sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope><sys_update_name>sys_security_acl_21fd85da4711061042ea995b116d4387</sys_update_name><sys_updated_by>NelsonAdmin</sys_updated_by><sys_updated_on>2024-04-03 13:13:07</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>288765745</payload_hash>
+        <record_name>x_1366185_dnb_cars_rental_history</record_name>
+        <reverted_from/>
+        <source>167604c64715821042ea995b116d438b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>NelsonAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 13:13:07</sys_created_on>
+        <sys_id>f1fd85da4711061042ea995b116d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea41782740000001</sys_recorded_at>
+        <sys_updated_by>NelsonAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 13:13:07</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>e5fd85da76110610dacc9cf626e8bc8e</update_guid>
+        <update_guid_history>e5fd85da76110610dacc9cf626e8bc8e:288765745</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>NelsonAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 14:05:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>508911d7285f41dca967c17efb6c0e64</sys_id>
+        <sys_metadata>21fd85da4711061042ea995b116d4387</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1366185_dnb_cars_rental_history</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_parent display_value="">31fd85da4711061042ea995b116d43dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_scope_delete display_value="">29220052c882494693af7644547d9b84</sys_scope_delete>
+        <sys_update_name>sys_security_acl_21fd85da4711061042ea995b116d4387</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_21fd85da4711061042ea995b116d4387">f1fd85da4711061042ea995b116d438f</sys_update_version>
+        <sys_updated_by>NelsonAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-03 14:05:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_set">
+    <catalog_dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>true</always_replace>
+        <applies_to>item</applies_to>
+        <catalog_item/>
+        <dl_definition display_value="records info detallied ">8ad0d45e4799c21042ea995b116d4397</dl_definition>
+        <matcher_table>x_1366185_dnb_cars_frota</matcher_table>
+        <matcher_table_field>fuel</matcher_table_field>
+        <source_catalog_variable>IO:2050d41e4799c21042ea995b116d43fa</source_catalog_variable>
+        <source_table/>
+        <source_table_field/>
+        <source_variable>fuel_type</source_variable>
+        <sys_class_name>catalog_dl_definition_rel_set</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-03 08:46:50</sys_created_on>
+        <sys_id>61f0985e4799c21042ea995b116d43f0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>catalog_dl_definition_rel_set_61f0985e4799c21042ea995b116d43f0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:21:25</sys_updated_on>
+        <variable_set/>
+    </catalog_dl_definition_rel_set>
+</record_update>

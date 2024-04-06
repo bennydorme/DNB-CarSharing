@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2be91dda4751061042ea995b116d4367" label="Rental Request" max_length="40" name="x_1366185_dnb_cars_rental_request" type="collection">
+        <element choice="3" label="State" max_length="40" name="approved" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending Approval" sequence="0" value="Pending Approval"/>
+                <element inactive_on_update="false" label="Accepted" sequence="1" value="Accepted"/>
+                <element inactive_on_update="false" label="Refused" sequence="2" value="Refused"/>
+            </choice>
+        </element>
+        <element label="Baby Seat  &lt;=36kg" max_length="40" name="beaby_seat_36kg" type="boolean"/>
+        <element label="Car Model" mandatory="true" max_length="40" name="car_model" type="string"/>
+        <element label="Driver" mandatory="true" max_length="80" name="driver" type="string"/>
+        <element label="Driver's Licence" mandatory="true" max_length="20" name="driver_s_licence" type="string"/>
+        <element label="Drop-off Date" mandatory="true" max_length="12" name="drop_off_date" type="calendar_date_time"/>
+        <element label="Drop-off Location" mandatory="true" max_length="40" name="dro_off_location" type="string"/>
+        <element label="GPS" max_length="40" name="gps" type="boolean"/>
+        <element label="No deposit insurance" max_length="40" name="no_deposit_insurance" type="boolean"/>
+        <element label="Pick-up Date" mandatory="true" max_length="12" name="pick_up_date" type="calendar_date_time"/>
+        <element label="Pick-up Location" mandatory="true" max_length="40" name="pick_up_location" type="string"/>
+    </element>
+</database>

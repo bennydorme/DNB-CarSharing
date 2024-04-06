@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="driver_s_licence" label="Driver's Licence" language="en" table="x_1366185_dnb_cars_rental_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>driver_s_licence</element>
+            <help/>
+            <hint/>
+            <label>Driver's Licence</label>
+            <language>en</language>
+            <name>x_1366185_dnb_cars_rental_request</name>
+            <plural>Driver's Licences</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>NelsonAdmin</sys_created_by>
+            <sys_created_on>2024-04-03 14:21:44</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Driver's Licence</sys_name>
+            <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+            <sys_update_name>sys_documentation_x_1366185_dnb_cars_rental_request_driver_s_licence_en</sys_update_name>
+            <sys_updated_by>NelsonAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-03 14:21:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

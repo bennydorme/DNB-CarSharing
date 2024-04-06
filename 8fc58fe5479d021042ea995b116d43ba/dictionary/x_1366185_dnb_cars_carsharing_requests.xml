@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="3d20d7ad47d1021042ea995b116d43f1" extends="task" label="CarSharing Requests" max_length="40" name="x_1366185_dnb_cars_carsharing_requests" type="collection"/>
-</database>

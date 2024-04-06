@@ -19,16 +19,19 @@
         <order/>
         <published_ref/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   g_form.setValue('driver_name', g_user.firstName);
-}]]></script>
+    // Get the user's first name
+    var user_first_name = g_user.firstName;
+    // Set the user's first name to the 'driver_name' field
+    g_form.setValue('driver_name', user_first_name);
+}
+]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-04 15:35:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05b7b26e4711861042ea995b116d4383</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>LoadUserData</sys_name>
         <sys_overrides/>
         <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
@@ -36,7 +39,7 @@
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name>catalog_script_client_05b7b26e4711861042ea995b116d4383</sys_update_name>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-04 15:38:56</sys_updated_on>
+        <sys_updated_on>2024-04-05 15:38:35</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>0</ui_type>
