@@ -10,7 +10,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Pick-up Location</column_label>
@@ -57,8 +57,8 @@
         <sys_policy/>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name>sys_dictionary_x_1366185_dnb_cars_rental_request_pick_up_location</sys_update_name>
-        <sys_updated_by>NelsonAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-03 14:18:34</sys_updated_on>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-08 10:18:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
