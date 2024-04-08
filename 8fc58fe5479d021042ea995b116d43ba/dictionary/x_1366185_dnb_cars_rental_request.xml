@@ -9,11 +9,22 @@
         </element>
         <element label="Baby Seat  &lt;=36kg" max_length="40" name="beaby_seat_36kg" type="boolean"/>
         <element label="Car Model" mandatory="true" max_length="40" name="car_model" type="string"/>
+        <element choice="1" display="true" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="4 x 4" value="4 x 4"/>
+                <element inactive_on_update="false" label="City" value="City"/>
+                <element inactive_on_update="false" label="Eco" value="Eco"/>
+                <element inactive_on_update="false" label="Family" value="Family"/>
+                <element inactive_on_update="false" label="Standard" value="Standard"/>
+            </choice>
+        </element>
+        <element label="check out" max_length="40" name="check_out" type="boolean"/>
         <element label="Driver" mandatory="true" max_length="80" name="driver" type="string"/>
         <element label="Driver's Licence" mandatory="true" max_length="20" name="driver_s_licence" type="string"/>
         <element label="Drop-off Date" mandatory="true" max_length="12" name="drop_off_date" type="calendar_date_time"/>
         <element label="Drop-off Location" mandatory="true" max_length="40" name="dro_off_location" type="string"/>
         <element label="GPS" max_length="40" name="gps" type="boolean"/>
+        <element label="Incident" max_length="40" name="incident" type="boolean"/>
         <element label="No deposit insurance" max_length="40" name="no_deposit_insurance" type="boolean"/>
         <element label="Pick-up Date" mandatory="true" max_length="12" name="pick_up_date" type="calendar_date_time"/>
         <element label="Pick-up Location" mandatory="true" max_length="40" name="pick_up_location" type="string"/>

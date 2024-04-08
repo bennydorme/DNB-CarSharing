@@ -210,6 +210,48 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>check_out</element>
+            <position>15</position>
+            <sys_created_by>DianaAdmin</sys_created_by>
+            <sys_created_on>2024-04-08 08:37:39</sys_created_on>
+            <sys_id>cfdeb5374711021042ea995b116d43f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_rental_request" sys_domain="global" view="Default view">e6c5712a4799461042ea995b116d4365</sys_ui_section>
+            <sys_updated_by>DianaAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-08 08:37:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>16</position>
+            <sys_created_by>DianaAdmin</sys_created_by>
+            <sys_created_on>2024-04-08 08:37:39</sys_created_on>
+            <sys_id>c7def5774711021042ea995b116d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_rental_request" sys_domain="global" view="Default view">e6c5712a4799461042ea995b116d4365</sys_ui_section>
+            <sys_updated_by>DianaAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-08 08:37:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incident</element>
+            <position>17</position>
+            <sys_created_by>DianaAdmin</sys_created_by>
+            <sys_created_on>2024-04-08 09:11:34</sys_created_on>
+            <sys_id>bb9682f34751021042ea995b116d4354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1366185_dnb_cars_rental_request" sys_domain="global" view="Default view">e6c5712a4799461042ea995b116d4365</sys_ui_section>
+            <sys_updated_by>DianaAdmin</sys_updated_by>
+            <sys_updated_on>2024-04-08 09:11:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
