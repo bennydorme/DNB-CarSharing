@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2be91dda4751061042ea995b116d4367" label="Rental Request" max_length="40" name="x_1366185_dnb_cars_rental_request" type="collection">
-        <element choice="3" label="State" max_length="40" name="approved" type="choice">
+        <element choice="3" default="Pending Approval" label="State" max_length="40" name="approved" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Pending Approval" sequence="0" value="Pending Approval"/>
                 <element inactive_on_update="false" label="Accepted" sequence="1" value="Accepted"/>

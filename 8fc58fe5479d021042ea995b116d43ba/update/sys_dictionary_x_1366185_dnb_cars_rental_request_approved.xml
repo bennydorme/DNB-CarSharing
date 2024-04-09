@@ -11,7 +11,7 @@
         <column_label>State</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>Pending Approval</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name>sys_dictionary_x_1366185_dnb_cars_rental_request_approved</sys_update_name>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 17:10:16</sys_updated_on>
+        <sys_updated_on>2024-04-07 14:57:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

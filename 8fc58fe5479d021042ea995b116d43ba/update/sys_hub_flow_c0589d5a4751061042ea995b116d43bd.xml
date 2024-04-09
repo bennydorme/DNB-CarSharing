@@ -2,40 +2,38 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=361539000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Asks manager approval, creates a record to make history</description>
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>dnb_carsharing</internal_name>
-        <label_cache>[{"name":"Updated_1.current.driver","label":"Trigger - Record Updated➛Rental Request Record➛Driver","reference":"","reference_display":"Driver","type":"string","base_type":"string","parent_table_name":"x_1366185_dnb_cars_rental_request","column_name":"driver","usedInstances":{"32297413-5cf8-45e8-a346-6f63fe045319":["conditions"]}}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"Updated_1.current.driver","label":"Trigger - Record Updated➛Rental Request Record➛Driver","reference":"","reference_display":"Driver","type":"string","base_type":"string","parent_table_name":"x_1366185_dnb_cars_rental_request","column_name":"driver","usedInstances":{"32297413-5cf8-45e8-a346-6f63fe045319":["conditions"],"0a68f692-e75a-4a81-b7ce-1b877782f5f8":["conditions"],"98ee836f-0eb4-45a2-abcb-01c8cd637397":["conditions"]}}]</label_cache>
+        <master_snapshot>97fc369b47518a1042ea995b116d4334</master_snapshot>
         <name>DNB CarSharing </name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id/>
+        <remote_trigger_id>f3fc369b47518a1042ea995b116d43ce</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-03 13:58:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0589d5a4751061042ea995b116d43bd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>DNB CarSharing </sys_name>
         <sys_overrides/>
         <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
@@ -43,11 +41,51 @@
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name>sys_hub_flow_c0589d5a4751061042ea995b116d43bd</sys_update_name>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 22:24:13</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:24:03</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c0589d5a4751061042ea995b116d43bd"/>
     <sys_variable_value action="delete_multiple" query="document_key=c0589d5a4751061042ea995b116d43bd"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1366185_dnb_cars_rental_request">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f3fc369b47518a1042ea995b116d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <table>x_1366185_dnb_cars_rental_request</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>c0589d5a4751061042ea995b116d43bd</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-07 18:24:02</sys_created_on>
+        <sys_id>0f7bfae74795ca1042ea995b116d43c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:02</sys_updated_on>
+        <trigger display_value="">f3fc369b47518a1042ea995b116d43ce</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c0589d5a4751061042ea995b116d43bd^sys_idNOT IN0f7bfae74795ca1042ea995b116d43c7"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=c0589d5a4751061042ea995b116d43bd^sys_idNOT IN67d8a29f47dd4a1042ea995b116d43de"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -58,10 +96,10 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 22:24:13</sys_created_on>
         <sys_id>67d8a29f47dd4a1042ea995b116d43de</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:24:03</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -116,7 +154,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -175,14 +213,14 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 22:24:13</sys_created_on>
         <sys_id>a3d8229f47dd4a1042ea995b116d4354</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name/>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 22:24:13</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:24:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -307,7 +345,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -366,14 +404,14 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 22:24:13</sys_created_on>
         <sys_id>afd8a29f47dd4a1042ea995b116d43d8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name/>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 22:24:13</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:24:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -396,8 +434,7 @@
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <attributes/>
-        <comment/>
-        <compiled_snapshot/>
+        <comment>Envia email com a chave de acesso</comment>
         <display_text/>
         <flow display_value="DNB CarSharing ">c0589d5a4751061042ea995b116d43bd</flow>
         <generation_source/>
@@ -407,10 +444,10 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>31cb7ed747518a1042ea995b116d43b6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-08 08:29:37</sys_updated_on>
         <ui_id>9ed827bf-a48a-4b47-933b-10128c3d9a9d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=31cb7ed747518a1042ea995b116d43b6"/>
@@ -449,11 +486,15 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>71cb7ed747518a1042ea995b116d43b8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:23:52</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Dear&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4c362a9c-8af0-46e9-9554-57afd0039f09}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:4c362a9c-8af0-46e9-9554-57afd0039f09}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="2 - Look Up Record &amp;gt; User Record &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;2 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4c362a9c-8af0-46e9-9554-57afd0039f09" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;your rental request for the day&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:00d19b72-bfef-4ac6-afc2-24e90b9b72d7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:00d19b72-bfef-4ac6-afc2-24e90b9b72d7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Updated &amp;gt; Rental Request Record &amp;gt; Pick-up Date"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Pick-up Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_00d19b72-bfef-4ac6-afc2-24e90b9b72d7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with the car&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:df02a9dc-e145-4b0d-bd8b-d172de1975ad}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:df02a9dc-e145-4b0d-bd8b-d172de1975ad}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Updated &amp;gt; Rental Request Record &amp;gt; Car Model"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Car Model&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_df02a9dc-e145-4b0d-bd8b-d172de1975ad" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; as been accepted and your activation key is the following&amp;nbsp;&lt;span style="color: #0d0d0d; font-family: 'S&amp;ouml;hne Mono', Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 14px; font-weight: 600; white-space-collapse: preserve;"&gt;fd_data.activationKey&lt;/span&gt;&lt;/p&gt;</value>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4c362a9c-8af0-46e9-9554-57afd0039f09}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:4c362a9c-8af0-46e9-9554-57afd0039f09}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_4c362a9c-8af0-46e9-9554-57afd0039f09" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;your rental request for the day&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:00d19b72-bfef-4ac6-afc2-24e90b9b72d7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:00d19b72-bfef-4ac6-afc2-24e90b9b72d7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_00d19b72-bfef-4ac6-afc2-24e90b9b72d7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with the car&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:df02a9dc-e145-4b0d-bd8b-d172de1975ad}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:df02a9dc-e145-4b0d-bd8b-d172de1975ad}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_df02a9dc-e145-4b0d-bd8b-d172de1975ad" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; as been accepted and your activation key is the following:&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;DNB, followed by your name, followed by the year you're renting.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Eg:DNBBernardo2024&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;br /&gt;Best Regards,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;DNB CarSharing&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -485,13 +526,13 @@
         <input_name>ah_body</input_name>
         <instance>31cb7ed747518a1042ea995b116d43b6</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"ah_body":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nfunction getRandomNumber(min, max) {\n    return Math.floor(Math.random() * (max - min + 1) + min);\n}\n\n// Generate 5 random numbers for the activation key\nvar activationKey \u003d \u0027\u0027;\nfor (var i \u003d 0; i \u003c 5; i++) {\n    activationKey +\u003d getRandomNumber(0, 9); // Append a random number between 0 and 9\n}\n\n// Return the generated activation key\nreturn activationKey;"}}</script>
+        <script>{"ah_body":{"scriptActive":false,"script":"// Generate temporary password\nvar chave \u003d geradorChave();\n\n// Function to generate temporary password\nfunction geradorChave() {\n    var chaveAtivacao \u003d \u0027\u0027;\n    var banco \u003d \u0027ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!%@#\u0027;\n\n    for (var i \u003d 0; i \u003c 5; i++) {\n        chaveAtivacao +\u003d banco.charAt(Math.floor(Math.random() * banco.length)); // Corrected variable name from \u0027charSet\u0027 to \u0027banco\u0027\n    }\n\n    return chaveAtivacao;\n}\n\n// Return the temporary password\nreturn chave;\n"}}</script>
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>b9cb7ed747518a1042ea995b116d43b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-07 15:54:57</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=31cb7ed747518a1042ea995b116d43b6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -500,8 +541,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <attributes/>
-        <comment/>
-        <compiled_snapshot/>
+        <comment>Pesquisa o user na tabela sys_user pelo nome do rental request</comment>
         <display_text/>
         <flow display_value="DNB CarSharing ">c0589d5a4751061042ea995b116d43bd</flow>
         <generation_source/>
@@ -511,10 +551,10 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 22:24:13</sys_created_on>
         <sys_id>f3d8a29f47dd4a1042ea995b116d43f8</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-08 08:29:37</sys_updated_on>
         <ui_id>32297413-5cf8-45e8-a346-6f63fe045319</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f3d8a29f47dd4a1042ea995b116d43f8"/>
@@ -591,8 +631,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <attributes/>
-        <comment/>
-        <compiled_snapshot/>
+        <comment>Faz a mesma pesquisa pelo user na sys_user</comment>
         <display_text/>
         <flow display_value="DNB CarSharing ">c0589d5a4751061042ea995b116d43bd</flow>
         <generation_source/>
@@ -602,10 +641,10 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>f5cb7ed747518a1042ea995b116d43c6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-08 08:29:37</sys_updated_on>
         <ui_id>2701af6f-17ab-4b90-a141-143c54883e62</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5cb7ed747518a1042ea995b116d43c6"/>
@@ -656,8 +695,7 @@
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <attributes/>
-        <comment/>
-        <compiled_snapshot/>
+        <comment>Envia email a informar que não foi aceite o pedido</comment>
         <display_text/>
         <flow display_value="DNB CarSharing ">c0589d5a4751061042ea995b116d43bd</flow>
         <generation_source/>
@@ -667,10 +705,10 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>fdcb7ed747518a1042ea995b116d43ce</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-08 08:29:37</sys_updated_on>
         <ui_id>876f861d-7e1d-456a-afb2-cf8dae733508</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fdcb7ed747518a1042ea995b116d43ce"/>
@@ -709,11 +747,14 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>31cb7ed747518a1042ea995b116d43d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:23:52</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:6421208e-c301-43e6-8161-bacc458be981}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:6421208e-c301-43e6-8161-bacc458be981}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="6 - Look Up Record &amp;gt; User Record &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;6 - Look Up Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_6421208e-c301-43e6-8161-bacc458be981" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; your rental request for the day&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:9b623f3d-061e-4be9-b67f-f04ed9867be8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:9b623f3d-061e-4be9-b67f-f04ed9867be8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Updated &amp;gt; Rental Request Record &amp;gt; Pick-up Date"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Pick-up Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_9b623f3d-061e-4be9-b67f-f04ed9867be8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with the car&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cca56e95-2d44-4667-b0af-9836e917a76e}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:cca56e95-2d44-4667-b0af-9836e917a76e}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Updated &amp;gt; Rental Request Record &amp;gt; Car Model"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Car Model&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_cca56e95-2d44-4667-b0af-9836e917a76e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; as been&amp;nbsp;rejected.&lt;/p&gt;</value>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:6421208e-c301-43e6-8161-bacc458be981}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:6421208e-c301-43e6-8161-bacc458be981}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_6421208e-c301-43e6-8161-bacc458be981" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; your rental request for the day&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:9b623f3d-061e-4be9-b67f-f04ed9867be8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:9b623f3d-061e-4be9-b67f-f04ed9867be8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_9b623f3d-061e-4be9-b67f-f04ed9867be8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with the car&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cca56e95-2d44-4667-b0af-9836e917a76e}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:cca56e95-2d44-4667-b0af-9836e917a76e}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_cca56e95-2d44-4667-b0af-9836e917a76e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; as been&amp;nbsp;rejected.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Best regards,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;DNB CarSharing&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -779,10 +820,10 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>31cb7ed747518a1042ea995b116d43b9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:24:03</sys_updated_on>
         <ui_id>18f6a82d-88f3-454c-b36e-1cb700501bf9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -793,7 +834,7 @@
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">bdcb7ed747518a1042ea995b116d43a9</block>
-        <comment/>
+        <comment>Se o estado for aceite segue</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -814,10 +855,10 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>71cb7ed747518a1042ea995b116d43aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:24:03</sys_updated_on>
         <ui_id>270b1c25-7e81-48e7-bb0b-95e0ce6e5b4c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -841,7 +882,7 @@
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">f1cb7ed747518a1042ea995b116d43bb</block>
-        <comment/>
+        <comment>Caso não seja aceite</comment>
         <connected_to>270b1c25-7e81-48e7-bb0b-95e0ce6e5b4c</connected_to>
         <decision_table/>
         <decision_table_inputs/>
@@ -861,10 +902,10 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>b5cb7ed747518a1042ea995b116d43bb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:24:03</sys_updated_on>
         <ui_id>2e6b2f00-88d9-4845-919e-07e55a70e8a1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -895,10 +936,10 @@
         <sys_created_by>BenAdmin</sys_created_by>
         <sys_created_on>2024-04-06 23:46:50</sys_created_on>
         <sys_id>fdcb7ed747518a1042ea995b116d43d1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-06 23:46:50</sys_updated_on>
+        <sys_updated_on>2024-04-07 18:24:03</sys_updated_on>
         <ui_id>d8141869-fbfc-4213-a5e6-31689fc9384b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1134,6 +1175,1161 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c0589d5a4751061042ea995b116d43bd"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c0589d5a4751061042ea995b116d43bd"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c0589d5a4751061042ea995b116d43bd"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c0589d5a4751061042ea995b116d43bd"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Asks manager approval, creates a record to make history</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>dnb_carsharing</internal_name>
+        <label_cache>[{"name":"Updated_1.current.driver","label":"Trigger - Record Updated➛Rental Request Record➛Driver","reference":"","reference_display":"Driver","type":"string","base_type":"string","parent_table_name":"x_1366185_dnb_cars_rental_request","column_name":"driver","usedInstances":{"32297413-5cf8-45e8-a346-6f63fe045319":["conditions"],"0a68f692-e75a-4a81-b7ce-1b877782f5f8":["conditions"],"98ee836f-0eb4-45a2-abcb-01c8cd637397":["conditions"]}}]</label_cache>
+        <master>true</master>
+        <name>DNB CarSharing </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="DNB CarSharing ">c0589d5a4751061042ea995b116d43bd</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97fc369b47518a1042ea995b116d4334</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:02</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=97fc369b47518a1042ea995b116d4334"/>
+    <sys_variable_value action="delete_multiple" query="document_key=97fc369b47518a1042ea995b116d4334"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=97fc369b47518a1042ea995b116d4334^sys_idNOT IN6ffc369b47518a1042ea995b116d438a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>6ffc369b47518a1042ea995b116d438a</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:03</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6ffc369b47518a1042ea995b116d438a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6ffc369b47518a1042ea995b116d438a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>abfc369b47518a1042ea995b116d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <value>x_1366185_dnb_cars_rental_request</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6ffc369b47518a1042ea995b116d438a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>e7fc369b47518a1042ea995b116d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=6ffc369b47518a1042ea995b116d438a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=97fc369b47518a1042ea995b116d4334"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=97fc369b47518a1042ea995b116d4334^sys_idNOT IN93fc369b47518a1042ea995b116d4335"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>97fc369b47518a1042ea995b116d4334</id>
+        <name>DNB CarSharing </name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>93fc369b47518a1042ea995b116d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=93fc369b47518a1042ea995b116d4335"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=97fc369b47518a1042ea995b116d4334^sys_idNOT IN6bfc369b47518a1042ea995b116d4344,97fc369b47518a1042ea995b116d4336,a3fc369b47518a1042ea995b116d434c"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name>FDCollection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">3bbab03d7df1311076daf29f52070dd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_complex_object_f4f014150f023300ecf0cc52ff767eed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</model>
+        <model_id>97fc369b47518a1042ea995b116d4334</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_97fc369b47518a1042ea995b116d4334</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>6bfc369b47518a1042ea995b116d4344</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 15:44:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6bfc369b47518a1042ea995b116d4344"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</model>
+        <model_id>97fc369b47518a1042ea995b116d4334</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_97fc369b47518a1042ea995b116d4334</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>97fc369b47518a1042ea995b116d4336</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=97fc369b47518a1042ea995b116d4336"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</model>
+        <model_id>97fc369b47518a1042ea995b116d4334</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_97fc369b47518a1042ea995b116d4334</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>a3fc369b47518a1042ea995b116d434c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a3fc369b47518a1042ea995b116d434c"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=97fc369b47518a1042ea995b116d4334"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=97fc369b47518a1042ea995b116d4334"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=97fc369b47518a1042ea995b116d4334^sys_idNOT IN23fc369b47518a1042ea995b116d436a,23fc369b47518a1042ea995b116d4388,6bfc369b47518a1042ea995b116d4374,a7fc369b47518a1042ea995b116d437f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Pesquisa o user na tabela sys_user pelo nome do rental request</comment>
+        <display_text/>
+        <flow display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>270b1c25-7e81-48e7-bb0b-95e0ce6e5b4c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>23fc369b47518a1042ea995b116d436a</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:01</sys_updated_on>
+        <ui_id>32297413-5cf8-45e8-a346-6f63fe045319</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=23fc369b47518a1042ea995b116d436a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23fc369b47518a1042ea995b116d436a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>23fc369b47518a1042ea995b116d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23fc369b47518a1042ea995b116d436a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>2bfc369b47518a1042ea995b116d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+        <value>first_name</value>
+        <variable display_value="Order by">1d09f99587003300663ca1bb36cb0bad</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=23fc369b47518a1042ea995b116d436a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>23fc369b47518a1042ea995b116d436a</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>e3fc369b47518a1042ea995b116d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>first_name={{Updated_1.current.driver}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>23fc369b47518a1042ea995b116d436a</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>23fc369b47518a1042ea995b116d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>23fc369b47518a1042ea995b116d436a</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>a7fc369b47518a1042ea995b116d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=23fc369b47518a1042ea995b116d436a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=23fc369b47518a1042ea995b116d436a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment>Envia email a informar que não foi aceite o pedido</comment>
+        <display_text/>
+        <flow display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>2e6b2f00-88d9-4845-919e-07e55a70e8a1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>23fc369b47518a1042ea995b116d4388</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:02</sys_updated_on>
+        <ui_id>876f861d-7e1d-456a-afb2-cf8dae733508</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=23fc369b47518a1042ea995b116d4388"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23fc369b47518a1042ea995b116d4388</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>6bfc369b47518a1042ea995b116d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <value>Your rental request state as been Rejected</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23fc369b47518a1042ea995b116d4388</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>a7fc369b47518a1042ea995b116d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=23fc369b47518a1042ea995b116d4388"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>23fc369b47518a1042ea995b116d4388</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>63fc369b47518a1042ea995b116d438a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:6421208e-c301-43e6-8161-bacc458be981}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:6421208e-c301-43e6-8161-bacc458be981}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_6421208e-c301-43e6-8161-bacc458be981" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; your rental request for the day&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:9b623f3d-061e-4be9-b67f-f04ed9867be8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:9b623f3d-061e-4be9-b67f-f04ed9867be8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_9b623f3d-061e-4be9-b67f-f04ed9867be8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with the car&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cca56e95-2d44-4667-b0af-9836e917a76e}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:cca56e95-2d44-4667-b0af-9836e917a76e}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_cca56e95-2d44-4667-b0af-9836e917a76e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; as been&amp;nbsp;rejected.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Best regards,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;DNB CarSharing&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>23fc369b47518a1042ea995b116d4388</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>27fc369b47518a1042ea995b116d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>23fc369b47518a1042ea995b116d4388</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>affc369b47518a1042ea995b116d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value> {{2701af6f-17ab-4b90-a141-143c54883e62.Record.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=23fc369b47518a1042ea995b116d4388^sys_idNOT INabfc369b47518a1042ea995b116d4389"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_body</input_name>
+        <instance>23fc369b47518a1042ea995b116d4388</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nfunction getRandomNumber(min, max) {\n    return Math.floor(Math.random() * (max - min + 1) + min);\n}\n\n// Generate 5 random numbers for the activation key\nvar activationKey \u003d \u0027\u0027;\nfor (var i \u003d 0; i \u003c 5; i++) {\n    activationKey +\u003d getRandomNumber(0, 9); // Append a random number between 0 and 9\n}\n\n// Return the generated activation key\nreturn activationKey;"}}</script>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>abfc369b47518a1042ea995b116d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=23fc369b47518a1042ea995b116d4388"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment>Envia email com a chave de acesso</comment>
+        <display_text/>
+        <flow display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>270b1c25-7e81-48e7-bb0b-95e0ce6e5b4c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>6bfc369b47518a1042ea995b116d4374</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:01</sys_updated_on>
+        <ui_id>9ed827bf-a48a-4b47-933b-10128c3d9a9d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6bfc369b47518a1042ea995b116d4374"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6bfc369b47518a1042ea995b116d4374</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>abfc369b47518a1042ea995b116d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <value>Your rental request state as been Approved</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6bfc369b47518a1042ea995b116d4374</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>e7fc369b47518a1042ea995b116d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6bfc369b47518a1042ea995b116d4374"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>6bfc369b47518a1042ea995b116d4374</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>a3fc369b47518a1042ea995b116d4377</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4c362a9c-8af0-46e9-9554-57afd0039f09}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:4c362a9c-8af0-46e9-9554-57afd0039f09}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_4c362a9c-8af0-46e9-9554-57afd0039f09" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;your rental request for the day&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:00d19b72-bfef-4ac6-afc2-24e90b9b72d7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:00d19b72-bfef-4ac6-afc2-24e90b9b72d7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_00d19b72-bfef-4ac6-afc2-24e90b9b72d7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with the car&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:df02a9dc-e145-4b0d-bd8b-d172de1975ad}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:df02a9dc-e145-4b0d-bd8b-d172de1975ad}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;button id="transform_function_facade_df02a9dc-e145-4b0d-bd8b-d172de1975ad" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; as been accepted and your activation key is the following:&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;DNB, followed by your name, followed by the year you're renting.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Eg:DNBBernardo2024&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;br /&gt;Best Regards,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;DNB CarSharing&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>6bfc369b47518a1042ea995b116d4374</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>67fc369b47518a1042ea995b116d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>6bfc369b47518a1042ea995b116d4374</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>effc369b47518a1042ea995b116d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{32297413-5cf8-45e8-a346-6f63fe045319.Record.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6bfc369b47518a1042ea995b116d4374^sys_idNOT INe3fc369b47518a1042ea995b116d4376"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_body</input_name>
+        <instance>6bfc369b47518a1042ea995b116d4374</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":false,"script":"// Generate temporary password\nvar chave \u003d geradorChave();\n\n// Function to generate temporary password\nfunction geradorChave() {\n    var chaveAtivacao \u003d \u0027\u0027;\n    var banco \u003d \u0027ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!%@#\u0027;\n\n    for (var i \u003d 0; i \u003c 5; i++) {\n        chaveAtivacao +\u003d banco.charAt(Math.floor(Math.random() * banco.length)); // Corrected variable name from \u0027charSet\u0027 to \u0027banco\u0027\n    }\n\n    return chaveAtivacao;\n}\n\n// Return the temporary password\nreturn chave;\n"}}</script>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>e3fc369b47518a1042ea995b116d4376</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 16:13:15</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6bfc369b47518a1042ea995b116d4374"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Faz a mesma pesquisa pelo user na sys_user</comment>
+        <display_text/>
+        <flow display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>2e6b2f00-88d9-4845-919e-07e55a70e8a1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>a7fc369b47518a1042ea995b116d437f</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:02</sys_updated_on>
+        <ui_id>2701af6f-17ab-4b90-a141-143c54883e62</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a7fc369b47518a1042ea995b116d437f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a7fc369b47518a1042ea995b116d437f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>a3fc369b47518a1042ea995b116d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a7fc369b47518a1042ea995b116d437f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a7fc369b47518a1042ea995b116d437f</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>6ffc369b47518a1042ea995b116d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>first_name={{Updated_1.current.driver}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a7fc369b47518a1042ea995b116d437f</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>23fc369b47518a1042ea995b116d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7fc369b47518a1042ea995b116d437f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a7fc369b47518a1042ea995b116d437f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=97fc369b47518a1042ea995b116d4334"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=97fc369b47518a1042ea995b116d4334^sys_idNOT IN27fc369b47518a1042ea995b116d435a,2bfc369b47518a1042ea995b116d435f,affc369b47518a1042ea995b116d435c,e7fc369b47518a1042ea995b116d4356"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7dcb7ed747518a1042ea995b116d43b8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>270b1c25-7e81-48e7-bb0b-95e0ce6e5b4c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>27fc369b47518a1042ea995b116d435a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:01</sys_updated_on>
+        <ui_id>18f6a82d-88f3-454c-b36e-1cb700501bf9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=27fc369b47518a1042ea995b116d435a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=27fc369b47518a1042ea995b116d435a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=27fc369b47518a1042ea995b116d435a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3dcb7ed747518a1042ea995b116d43d1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2e6b2f00-88d9-4845-919e-07e55a70e8a1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>2bfc369b47518a1042ea995b116d435f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:02</sys_updated_on>
+        <ui_id>d8141869-fbfc-4213-a5e6-31689fc9384b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2bfc369b47518a1042ea995b116d435f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2bfc369b47518a1042ea995b116d435f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2bfc369b47518a1042ea995b116d435f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f1cb7ed747518a1042ea995b116d43bb</block>
+        <comment>Caso não seja aceite</comment>
+        <connected_to>270b1c25-7e81-48e7-bb0b-95e0ce6e5b4c</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>affc369b47518a1042ea995b116d435c</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:02</sys_updated_on>
+        <ui_id>2e6b2f00-88d9-4845-919e-07e55a70e8a1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=affc369b47518a1042ea995b116d435c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=affc369b47518a1042ea995b116d435c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=affc369b47518a1042ea995b116d435c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bdcb7ed747518a1042ea995b116d43a9</block>
+        <comment>Se o estado for aceite segue</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DNB CarSharing ">97fc369b47518a1042ea995b116d4334</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>e7fc369b47518a1042ea995b116d4356</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 18:24:01</sys_updated_on>
+        <ui_id>270b1c25-7e81-48e7-bb0b-95e0ce6e5b4c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e7fc369b47518a1042ea995b116d4356"/>
+    <sys_element_mapping action="delete_multiple" query="id=e7fc369b47518a1042ea995b116d4356"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>e7fc369b47518a1042ea995b116d4356</id>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>e7fc369b47518a1042ea995b116d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.approved}}=Accepted</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e7fc369b47518a1042ea995b116d4356"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e7fc369b47518a1042ea995b116d4356"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=97fc369b47518a1042ea995b116d4334^sys_idNOT IN63fc369b47518a1042ea995b116d438d,67fc369b47518a1042ea995b116d438c,6bfc369b47518a1042ea995b116d438c,6ffc369b47518a1042ea995b116d438c,e7fc369b47518a1042ea995b116d438c,ebfc369b47518a1042ea995b116d438c,effc369b47518a1042ea995b116d438b,effc369b47518a1042ea995b116d438c,f3fc369b47518a1042ea995b116d438d"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97fc369b47518a1042ea995b116d4334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.pick_up_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>63fc369b47518a1042ea995b116d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9b623f3d-061e-4be9-b67f-f04ed9867be8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97fc369b47518a1042ea995b116d4334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{2701af6f-17ab-4b90-a141-143c54883e62.Record.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>67fc369b47518a1042ea995b116d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6421208e-c301-43e6-8161-bacc458be981</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97fc369b47518a1042ea995b116d4334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{32297413-5cf8-45e8-a346-6f63fe045319.Record.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>6bfc369b47518a1042ea995b116d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1c7ee856-d033-4bc1-9128-960d8eafcb80</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97fc369b47518a1042ea995b116d4334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.car_model}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>6ffc369b47518a1042ea995b116d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>df02a9dc-e145-4b0d-bd8b-d172de1975ad</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97fc369b47518a1042ea995b116d4334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{32297413-5cf8-45e8-a346-6f63fe045319.Record.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>e7fc369b47518a1042ea995b116d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>80c30141-74f0-43e5-9692-68263f805362</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97fc369b47518a1042ea995b116d4334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>ebfc369b47518a1042ea995b116d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f75cee33-bc67-4bc6-9e85-40e333a49987</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97fc369b47518a1042ea995b116d4334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.pick_up_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>effc369b47518a1042ea995b116d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>00d19b72-bfef-4ac6-afc2-24e90b9b72d7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97fc369b47518a1042ea995b116d4334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.car_model}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>effc369b47518a1042ea995b116d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cca56e95-2d44-4667-b0af-9836e917a76e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>97fc369b47518a1042ea995b116d4334</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{32297413-5cf8-45e8-a346-6f63fe045319.Record.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:09</sys_created_on>
+        <sys_id>f3fc369b47518a1042ea995b116d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4c362a9c-8af0-46e9-9554-57afd0039f09</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=97fc369b47518a1042ea995b116d4334"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_97fc369b47518a1042ea995b116d4334^sys_idNOT IN27fc369b47518a1042ea995b116d4341,6ffc369b47518a1042ea995b116d4348,e3fc369b47518a1042ea995b116d4350"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_97fc369b47518a1042ea995b116d4334</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>27fc369b47518a1042ea995b116d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_97fc369b47518a1042ea995b116d4334</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>6ffc369b47518a1042ea995b116d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_97fc369b47518a1042ea995b116d4334</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:08</sys_created_on>
+        <sys_id>e3fc369b47518a1042ea995b116d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-06 23:52:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_97fc369b47518a1042ea995b116d4334"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_97fc369b47518a1042ea995b116d4334"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_97fc369b47518a1042ea995b116d4334"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>c0589d5a4751061042ea995b116d43bd</sys_id>
+        <latest_snapshot>97fc369b47518a1042ea995b116d4334</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch1-02-28-2024_03-09-2024_0815.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c0589d5a4751061042ea995b116d43bd^sys_idNOT IN77fc369b47518a1042ea995b116d43d0"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"77fc369b47518a1042ea995b116d43d0","name":"plan","plan_signature":null}}</plan>
+        <plan_id>c0589d5a4751061042ea995b116d43bd</plan_id>
+        <snapshot>910dbdb34711021042ea995b116d430f</snapshot>
+        <sys_created_by>BenAdmin</sys_created_by>
+        <sys_created_on>2024-04-06 23:52:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77fc369b47518a1042ea995b116d43d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>BenAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-07 15:44:56</sys_updated_on>
+        <trigger display_value="">f3fc369b47518a1042ea995b116d43ce</trigger>
+    </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c0589d5a4751061042ea995b116d43bd"/>
 </record_update>
