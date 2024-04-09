@@ -22,6 +22,9 @@
    //Type appropriate comment here, and begin script below
     var pickUpDate = g_form.getValue('pick_up_date');
     var dropOffDate = g_form.getValue('drop_off_date');
+	var today_date = new Date();
+	var today_date_time_str = formatDate(today_date, g_user_date_time_format);
+	
 
     if (pickUpDate && dropOffDate) {
         var pickUpTimestamp = new Date(pickUpDate).getTime();
@@ -33,7 +36,15 @@
         }
     }
 
-    return true; // Allow form submission
+	if (pickUpDate <= today_date_time_str) {
+        alert('Pick up date cannot be in the past. Please select a valid pick up date.');
+        return false; // Prevent form submission
+    }
+
+    // If pick up date is valid, continue with form submission
+    return true;
+
+    // return true; // Allow form submission
 }
 ]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -42,18 +53,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f55965264759461042ea995b116d43b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Date Fix</sys_name>
         <sys_overrides/>
         <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
         <sys_policy/>
         <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
         <sys_update_name>catalog_script_client_f55965264759461042ea995b116d43b4</sys_update_name>
-        <sys_updated_by>BenAdmin</sys_updated_by>
-        <sys_updated_on>2024-04-04 09:57:16</sys_updated_on>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-09 09:26:22</sys_updated_on>
         <table/>
         <type>onSubmit</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <va_supported>true</va_supported>
         <variable_set/>
         <view/>

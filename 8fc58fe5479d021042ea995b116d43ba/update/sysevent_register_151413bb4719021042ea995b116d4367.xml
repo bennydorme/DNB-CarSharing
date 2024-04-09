@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>scheduled job car delivery</description>
+        <event_name>x_1366185_dnb_cars.carDelivery</event_name>
+        <fired_by>scheduled job car delivery</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>carDelivery</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>DianaAdmin</sys_created_by>
+        <sys_created_on>2024-04-08 14:57:01</sys_created_on>
+        <sys_id>151413bb4719021042ea995b116d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1366185_dnb_cars.carDelivery</sys_name>
+        <sys_package display_value="DNB CarSharing" source="x_1366185_dnb_cars">8fc58fe5479d021042ea995b116d43ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DNB CarSharing">8fc58fe5479d021042ea995b116d43ba</sys_scope>
+        <sys_update_name>sysevent_register_151413bb4719021042ea995b116d4367</sys_update_name>
+        <sys_updated_by>DianaAdmin</sys_updated_by>
+        <sys_updated_on>2024-04-08 14:57:01</sys_updated_on>
+        <table>x_1366185_dnb_cars_rental_request</table>
+    </sysevent_register>
+</record_update>
